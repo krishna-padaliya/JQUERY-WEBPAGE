@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rehome</title>
+    <!-- style-css ----- -->
+    <link rel="stylesheet" href="style.css">
+     <!-- remix-icon -------- -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+     <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+   <!-- slick ------- -->
+  <link rel="stylesheet" type="text/css" href="slick.css">
+  <link rel="stylesheet" type="text/css" href="slick-theme.css">
+  <!-- jquery-------------------------------------------------------------------------------------- -->
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+ <!-- animated css------------------------------------------------------------------ -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <!-- wow -------------------------------------------------------------------------------------- -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 100%;
+        margin: 100px auto;
+        background-color: #92c800;
+        margin-bottom: 0;
+    }
+
+    .slick-slide {
+      margin: 0px;
+    }
+    .center-slide{
+        margin: 0;
+    }
+
+    .slick-slide img {
+      width: 30%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+     <div class="header">
+        <div class="inner-header">
+        <div class="logo">
+            <img src="logo.png.webp" alt="">
+        </div>
+       
+
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Rent</a></li>
+                    <li><a href="#">Agent</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </nav>
+         
+        </div>
+        <i class="ri-menu-2-line" id="menu"></i>
+        <button>Contant Us</button>
+    </div>
+   
+     </div>
+<!-- header ------------------------------------------------------------------------------------ -->
+
+     
+<!-- map ----------------------------------------------------------------------------- -->
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235013.74842747077!2d72.41492768056567!3d23.020474102419684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1684230618551!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<!-- map ------------------------------------------------------------------------------ -->
+
+
+
+<!-- map-section ----------------------------------------------------------------------- -->
+     <div class="map-txt">
+        <div class="map-opt  wow animate__animated animate__fadeInUp">
+        <select name="" id="">
+            <option class="opt" value="">Location</option>
+            <option value="">Gujarat</option>
+            <option value="">Panjab</option>
+            <option value="">Maharatra</option>
+            <option value="">Bihar</option>
+            <option value="">Telngana</option>
+        </select>
+
+        <select name="" id="">
+            <option value="">All Type</option>
+            <option value="">Commercial</option>
+            <option value="">Office</option>
+            <option value="">Villa</option>
+            <option value="">Apartment</option>
+            <option value="">Condominium</option>
+        </select>
+
+        <select name="" id="">
+            <option value="">All City</option>
+            <option value="">Delhi</option>
+            <option value="">Mubai</option>
+            <option value="">Baroda</option>
+            <option value="">Gandhinagar</option>
+            <option value="">rajkot</option>
+        </select>
+
+        <select name="" id="">
+            <option value="">For All</option>
+            <option value="">01</option>
+            <option value="">02</option>
+            <option value="">03</option>
+            <option value="">04</option>
+            <option value="">05</option>
+        </select>
+
+        <select name="" id="">
+            <option value="">Bedrooms</option>
+            <option value="">01</option>
+            <option value="">02</option>
+            <option value="">03</option>
+            <option value="">04</option>
+            <option value="">05</option>
+        </select>
+
+        <select name="" id="">
+            <option value="">Bathrooms</option>
+            <option value="">01</option>
+            <option value="">02</option>
+            <option value="">03</option>
+            <option value="">04</option>
+            <option value="">05</option>
+        </select>
+
+        <button>Search</button>
+    </div>   
+     </div>
+<!-- map-section ----------------------------------------------------------------------- -->
+
+
+
+
+<!-- New------------------------------------------------------------------------------------- -->
+<div class="main-new">
+    <div class="new wow animate__animated animate__fadeInUp">
+        <h2>Top New In <span>NewYork</span></h2>
+        <h5>These are the best deals and deals. All in New York City and nearby area</h5>
+        <div class="new-div">
+            <div class="new1 wow animate__animated animate__fadeInUp">
+                <div class="new-img">
+                    <img src="1.jpg.webp" alt="">
+                </div>
+                <div class="new-txt"><br>
+                    <span class="h5">7660 Nikolaus Burg</span> <span class="a">Seller</span><br>
+                    <i class="ri-map-pin-line"></i> <span class="p">GA 125, Newyork</span>  <span class="b">Alex Cross</span><br><br>
+                    <hr><br>
+                    <span class="c">Sqft:</span><span class="d">1420 m2</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="c">Garage:</span><span class="d">2</span><br>
+                    <span class="c">Baths:</span><span class="d">05</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="c">Baths:</span><span class="d">06</span><br>
+                </div>
+                <div class="new-button">
+                    <button class="b1">For Rent</button> <button class="b2">$ 1,599/month</button>
+                </div>
+            </div>
+
+            <div class="new1 wow animate__animated animate__fadeInUp">
+                <div class="new-img">
+                    <img src="2.jpg.webp" alt="">
+                </div>
+                <div class="new-txt"><br>
+                    <span class="h5">7660 Nikolaus Burg</span> <span class="a">Seller</span><br>
+                    <i class="ri-map-pin-line"></i> <span class="p">GA 125, Newyork</span>  <span class="b">Alex Cross</span><br><br>
+                    <hr><br>
+                    <span class="c">Sqft:</span><span class="d">1420 m2</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="c">Garage:</span><span class="d">2</span><br>
+                    <span class="c">Baths:</span><span class="d">05</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="c">Baths:</span><span class="d">06</span><br>
+                </div>
+                <div class="new-button">
+                    <button class="b1">For Rent</button> <button class="b2">$ 1,599/month</button>
+                </div>
+            </div>
+
+            <div class="new1 wow animate__animated animate__fadeInUp">
+                <div class="new-img">
+                    <img src="3.jpg.webp" alt="">
+                </div>
+                <div class="new-txt"><br>
+                    <span class="h5">7660 Nikolaus Burg</span> <span class="a">Seller</span><br>
+                    <i class="ri-map-pin-line"></i> <span class="p">GA 125, Newyork</span>  <span class="b">Alex Cross</span><br><br>
+                    <hr><br>
+                    <span class="c">Sqft:</span><span class="d">1420 m2</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="c">Garage:</span><span class="d">2</span><br>
+                    <span class="c">Baths:</span><span class="d">05</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="c">Baths:</span><span class="d">06</span><br>
+                </div>
+                <div class="new-button">
+                    <button class="b1">For Rent</button> <button class="b2">$ 1,599/month</button>
+                </div>
+            </div>
+
+            <div class="new1 wow animate__animated animate__fadeInUp">
+                <div class="new-img">
+                    <img src="4.jpg.webp" alt="">
+                </div>
+                <div class="new-txt"><br>
+                    <span class="h5">7660 Nikolaus Burg</span> <span class="a">Seller</span><br>
+                    <i class="ri-map-pin-line"></i> <span class="p">GA 125, Newyork</span>  <span class="b">Alex Cross</span><br><br>
+                    <hr><br>
+                    <span class="c">Sqft:</span><span class="d">1420 m2</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="c">Garage:</span><span class="d">2</span><br>
+                    <span class="c">Baths:</span><span class="d">05</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="c">Baths:</span><span class="d">06</span><br>
+                </div>
+                <div class="new-button">
+                    <button class="b1">For Rent</button> <button class="b2">$ 1,599/month</button>
+                </div>
+            </div>
+
+            <div class="new1 wow animate__animated animate__fadeInUp">
+                <div class="new-img">
+                    <img src="5.jpg.webp" alt="">
+                </div>
+                <div class="new-txt"><br>
+                    <span class="h5">7660 Nikolaus Burg</span> <span class="a">Seller</span><br>
+                    <i class="ri-map-pin-line"></i> <span class="p">GA 125, Newyork</span>  <span class="b">Alex Cross</span><br><br>
+                    <hr><br>
+                    <span class="c">Sqft:</span><span class="d">1420 m2</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="c">Garage:</span><span class="d">2</span><br>
+                    <span class="c">Baths:</span><span class="d">05</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="c">Baths:</span><span class="d">06</span><br>
+                </div>
+                <div class="new-button">
+                    <button class="b1">For Rent</button> <button class="b2">$ 1,599/month</button>
+                </div>
+            </div>
+
+            <div class="new1 wow animate__animated animate__fadeInUp">
+                <div class="new-img">
+                    <img src="6.jpg.webp" alt="">
+                </div>
+                <div class="new-txt"><br>
+                    <span class="h5">7660 Nikolaus Burg</span> <span class="a">Seller</span><br>
+                    <i class="ri-map-pin-line"></i> <span class="p">GA 125, Newyork</span>  <span class="b">Alex Cross</span><br><br>
+                    <hr><br>
+                    <span class="c">Sqft:</span><span class="d">1420 m2</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="c">Garage:</span><span class="d">2</span><br>
+                    <span class="c">Baths:</span><span class="d">05</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="c">Baths:</span><span class="d">06</span><br>
+                </div>
+                <div class="new-button">
+                    <button class="b1">For Rent</button> <button class="b2">$ 1,599/month</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- New------------------------------------------------------------------------------------ -->
+
+
+
+
+
+<!-- about ---------------------------------------------------------------------------------- -->
+<div class="main-about wow animate__animated animate__fadeInUp">
+    <h2> <span> Why </span>Choose Us?</h2>
+    <h5>We have over 8 years of experience and knowledge on how to sell more.</h5>
+    <div class="about">
+        <div class="ab">
+            <i class="ri-user-search-line"></i>
+            <h5>Find Your Home</h5><br>
+            <p>Quis ipsum suspendisse ultrices, risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+        </div>
+
+        <div class="ab">
+            <i class="ri-building-line"></i>
+            <h5>Transportation support</h5><br>
+            <p>Quis ipsum suspendisse ultrices, risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+        </div>
+
+        <div class="ab">
+            <i class="ri-wallet-line"></i>
+            <h5>Save Your Money</h5><br>
+            <p>Quis ipsum suspendisse ultrices, risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+        </div>
+    </div>
+</div>
+<!-- about ---------------------------------------------------------------------------------- -->
+
+
+
+
+<!-- Property ------------------------------------------------------------------------------- -->
+<div class="main-property wow animate__animated animate__fadeInUp">
+    <div class="inner-pro">
+        <h2>Categories By <span> Property</span></h2>
+        <h5>We have over 8 years of experience and knowledge on how to sell more.</h5><br><br>
+
+        <div class="pro-img">
+            <div class="inner-img">
+            <img src="7.jpg.webp" alt="" class="i1">
+            </div>
+            <div class="i2">
+            <img src="8.jpg.webp" alt="" class="i2">
+            </div>
+            <div class="i3">
+            <img src="9.jpg.webp" alt="" class="i3">
+            </div>
+            <div class="i4">
+            <img src="10.jpg.webp" alt="" class="i4">
+        </div>
+        </div>
+    </div>
+</div>
+<!-- Property ------------------------------------------------------------------------------- -->
+
+ <!-- Swiper ------------------------------------------------------------------------------------>
+ <div class="swiper mySwiper wow animate__animated animate__fadeInUp">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="unnamed.png" alt=""></div>
+      <div class="swiper-slide"><img src="unnamed.png" alt=""></div>
+      <div class="swiper-slide"><img src="unnamed.png" alt=""></div>
+      <div class="swiper-slide"><img src="unnamed.png" alt=""></div>
+      <div class="swiper-slide"><img src="unnamed.png" alt=""></div>
+      <div class="swiper-slide"><img src="unnamed.png" alt=""></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+    <div class="autoplay-progress">
+      <!-- <svg viewBox="0 0 48 48">
+        <circle cx="24" cy="24" r="20"></circle>
+      </svg>
+      <span></span> -->
+    </div>
+  </div>
+<!-- swiper -------------------------------------------------------------------------------- -->
+
+
+<!-- Latest News------------------------------------------------------------------------------- -->
+<div class="main-latest wow animate__animated animate__fadeInUp">
+    <h2>Latest <span>News</span></h2>
+    <h5>Sign up for the latest real estate information and more.</h5>
+    <div class="lastest">
+        <div class="lt">
+        <div class="lt-img">
+            <img src="14.jpg.webp" alt="">
+        </div>
+        <div class="lt-txt">
+            <h4>Benjamin franklin S Method Of <br> Habit Formation</h4>
+            <h5>By Polly Williams &nbsp; <hr>  &nbsp; Dec 19, 2023 &nbsp; <hr> &nbsp; 3 Comment</h5>
+        </div>
+        </div>
+  
+        <div class="lt">
+        <div class="lt-img">
+            <img src="15.jpg.webp" alt="">
+        </div>
+        <div class="lt-txt">
+            <h4>How To Set Itention That <br> Energize  You</h4>
+            <h5>By Polly Williams &nbsp; <hr> &nbsp; Dec 19, 2023 &nbsp; <hr>  &nbsp; 3 Comment</h5>
+        </div>
+        </div>
+
+        <div class="lt">
+        <div class="lt-img">
+            <img src="16.jpg.webp" alt="">
+        </div>
+        <div class="lt-txt">
+            <h4>Burning Desire Golden Key Or <br> Red herring</h4>
+            <h5>By Polly Williams &nbsp; <hr> &nbsp; Dec 19, 2023 &nbsp;  <hr> &nbsp;  3 Comment</h5>
+        </div>
+    </div>
+
+    </div>
+</div>
+<!-- Latest News------------------------------------------------------------------------------- -->
+
+
+
+
+<!-- company logos------------------------------------------------------------------------------------- -->
+<section class="center slider wow animate__animated animate__fadeInUp">
+    <div>
+      <img src="1.png.webp">
+    </div>
+    <div>
+      <img src="2.png.webp">
+    </div>
+    <div>
+      <img src="3.png.webp">
+    </div>
+    <div>
+      <img src="1.png.webp">
+    </div>
+    <div>
+      <img src="5.png.webp">
+    </div>
+    <div>
+      <img src="1.png.webp">
+    </div>
+    <div>
+      <img src="2.png.webp">
+    </div>
+    <div>
+      <img src="3.png.webp">
+    </div>
+    <div>
+      <img src="5.png.webp">
+    </div>
+  </section>
+<!-- company logos------------------------------------------------------------------------------------- -->
+
+
+
+
+<!-- /* footer ---------------------------------------------------------------------------------------- */ -->
+<div class="main-footer">
+    <div class="inner-footer wow animate__animated animate__fadeInUp">
+        <div class="a">
+            <img src="logo-2.png.webp" alt=""> <br><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p><br><br>
+            <i class="ri-facebook-fill"></i>  <i class="ri-twitter-fill"></i>  <i class="ri-instagram-fill"></i>   <i class="ri-linkedin-fill"></i>
+        </div>
+        <div class="b">
+            <h4>Get Info</h4><br><br>
+            <h5>Phone: <span> (12) 345 6789</span></h5><br>
+            <h5>Email: <span>colorlib.info@gmail.com</span></h5><br>
+            <h5>Address: <span>Iris Watson, Box 283 8562 Fusce Rd, NY</span></h5>
+        </div>
+        <div class="c">
+            <h4>Property Cities</h4><br><br>
+            <div class="pc">
+                <h5><i class="ri-map-pin-line"></i> Kalima </h5>
+                <h5><i class="ri-map-pin-line"></i> Mianma</h5>
+                <h5><i class="ri-map-pin-line"></i> Chicago</h5>
+                <h5><i class="ri-map-pin-line"></i> Mahatan</h5>
+
+                <h5><i class="ri-map-pin-line"></i> Austin</h5>
+                <h5><i class="ri-map-pin-line"></i> Mahatan</h5>
+                <h5><i class="ri-map-pin-line"></i> Mehico</h5>
+                <h5><i class="ri-map-pin-line"></i> New York</h5>
+            </div>
+        </div>
+        <div class="d">
+            <h4>Newsletter</h4><br><br>
+            <p>Subscribe our newsletter gor get notification about new updates, count, etc.</p><br>
+            <input  type="email" name="" id="" placeholder="Enter Your Email...."  ><a href=""><i class="ri-send-plane-2-fill"></i></a>
+        </div>
+    </div>
+</div>
+<!-- /* footer ---------------------------------------------------------------------------------------- */ -->
+</body>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  const progressCircle = document.querySelector(".autoplay-progress svg");
+  const progressContent = document.querySelector(".autoplay-progress span");
+  var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    },
+    // on: {
+    //   autoplayTimeLeft(s, time, progress) {
+    //     progressCircle.style.setProperty("--progress", 1 - progress);
+    //     progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+    //   }
+    // }
+  });
+</script>
+
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="slick.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+  $(document).on('ready', function() {
+    $(".center").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 5,
+        slidesToScroll: 3
+      });
+    });
+</script>
+<script>
+    $(document).ready(function(){
+        $("#menu").click(function(){
+            $(".navbar").toggle(2000);
+        });
+    });
+  </script>
+  <script>
+    new WOW().init();
+   </script>
+</html>

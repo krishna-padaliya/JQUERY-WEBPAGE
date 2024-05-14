@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type="jpg" href="images/V_(logo_2010).svg.png">
+    <title>VINEYARD</title>
+    <!-- style .css  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- remix-icon  -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- animated css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- wow -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- jquery-->
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <!-- fontawsome  -->
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+<body>
+<!-- header --------------------------------------------------------------------------------------------------------- -->
+    <header>
+        <div class="main-hed">
+            <div class="logo">
+           <h1>V I N E Y A R D</h1>
+           <h5>CHRISTIAN CHURCH</h5>
+           </div>
+            <nav>
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">ministries</a></li>
+                    <li><a href="">sermons</a></li>
+                    <li><a href="">events</a></li>
+                    <li><a href="">blog</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+            </nav>
+            <i class="ri-menu-line" id="menu" ></i>
+        </div>
+        <script>
+        $(document).ready(function(){
+            $("#menu").click(function(){
+                $("nav ul li").toggle(2000);
+            });
+        });
+        </script>
+        <div class="video  animate__animated animate__flipInX">
+            <i class="ri-play-line" onclick="playvideo('images/video.mp4')"></i> <span><a href="">Watch Our Lastest Sermons</a></span>
+            <h1>LOVING GOD, LOVING OTHERS, SERVING GOD WITH ALL YOUR HEART</h1>
+            <h5>Submit your presence to the creator of the universe</h5>
+        </div>
+        <div class="video-player" id="videoplayer">
+        <video width="100%" controls autoplay id="myvideo">
+        <source src="images/novotel-hotel-lifestyle-video-clip.mp4" type="video/mp4">
+        </video>
+        <i class="ri-close-line" id="close-btn" onclick="stopvideo()"></i>
+        </div>
+        <script>
+            var videoplayer = document.getElementById("videoplayer");
+            var myvideo = document.getElementById("myvideo");
+            function stopvideo(){
+                videoplayer.style.display = "none";
+            }
+            function playvideo(file){
+                // myvideo.src = file;
+                videoplayer.style.display = "block";
+
+            }
+        </script>
+    </header>
+<!-- header ---------------------------------------------------------------------------------------------------------- -->
+
+<!-- section-2 ------------------------------------------------------------------------------------------------------ -->
+    <div class="main-sec-2">
+        <div class="sec-2">
+            <!-- 1 -->
+        <div class="sec-2-txt wow animate__animated animate__slideInUp">
+             <div class="in-txt">
+                <h5>DAILY PRAYERS</h5>
+                <p>A small river named Duden flows by their place and supplies it with the necessary </p>
+             </div>
+             <div class="in-icon">
+                <i class="ri-team-fill"></i>
+             </div>
+            </div>
+             <!-- 2 -->
+            <div class="sec-3-txt wow animate__animated animate__slideInUp">
+            <div class="in3-txt">
+               <h5>CHURCH COMMUNITY</h5>
+               <p>A small river named Duden flows by their place and supplies it with the necessary </p>
+            </div>
+            <div class="in3-icon">
+                <i class="ri-community-line"></i>
+            </div>
+        </div>
+        <!-- 3 -->
+        <div class="sec-2-txt wow animate__animated animate__slideInUp">
+        <div class="in-txt">
+           <h5>TEACHING</h5>
+           <p>A small river named Duden flows by their place and supplies it with the necessary </p>
+        </div>
+        <div class="in-icon">
+            <i class="ri-git-repository-line"></i>
+        </div>
+    </div>
+       <!-- 4 -->
+        <div class="sec-2-txt wow animate__animated animate__slideInUp">
+    <div class="in-txt">
+       <h5>HELPERS</h5>
+       <p>A small river named Duden flows by their place and supplies it with the necessary </p>
+    </div>
+    <div class="in-icon">
+        <i class="ri-hand-heart-line"></i>
+    </div>
+</div>
+    <!-- 5 -->
+    <div class="sec-2-txt wow animate__animated animate__slideInUp">
+        <div class="in-txt">
+           <h5>WEDDING</h5>
+           <p>A small river named Duden flows by their place and supplies it with the necessary </p>
+        </div>
+        <div class="in-icon">
+            <i class="ri-vip-diamond-line"></i>
+        </div>
+    </div>
+     <!-- 6 -->
+     <div class="sec-2-txt wow animate__animated animate__slideInUp">
+        <div class="in-txt">
+           <h5>EVENTS</h5>
+           <p>A small river named Duden flows by their place and supplies it with the necessary </p>
+        </div>
+        <div class="in-icon">
+            <i class="ri-broadcast-fill"></i>
+        </div>
+    </div>
+    
+</div>
+        <div class="sec-2-img">
+            <img src="images/books-g2323e22cb_1280.jpg" alt="">
+        </div>
+    </div>
+<!-- section-2 --------------------------------------------------------------------------------------------------- -->
+
+<!-- section-3 ---------------------------------------------------------------------------------------------------- -->
+<div class="main-sec-3 wow animate__animated animate__slideInUp">
+  <div class="container" id="myvideos">
+        <video controls autoplay width="50%"  class="background-clip" id="videoplayers">
+            <source src="images/novotel-hotel-lifestyle-video-clip.mp4" type="video/mp4">
+        </video>
+    <div class="content">
+        <i class="ri-play-line"></i>
+    </div>
+    </div>
+    <div class="iner-txt">
+       <h2>WE ARE CHURCH THAT BELIEVES IN JESUS CHRIST</h2>
+       <p>
+        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia. A small river named Duden flows by their place and supplies it with the necessary regelialia.
+       </p>
+       <!-- couunter ------- -->
+       <div class="col">
+        <div class="counter-box">
+            <h2 class="counter">70,000</h2>
+            <h5>members</h5>
+        </div>
+        <div class="counter-box">
+            <h2 class="counter">1,000</h2>
+            <h5>pastors</h5>
+        </div>
+        <div class="counter-box">
+            <h2 class="counter">100,000</h2>
+            <h5>donation</h5>
+        </div>
+        <div class="counter-box">
+            <h2 class="counter">100</h2>
+            <h5>churches</h5>
+        </div>
+       </div>
+       <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+       <script src="jquery.counterup.min.js"></script>
+       <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+       <script>
+        jQuery("document").ready(function($){
+            $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+            });
+        });
+       </script> -->
+       <script>
+       import { CountUp } from 'https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.0.7/countUp.js'
+
+function countStart(){
+  const $counters = document.querySelectorAll(".js-count-up"),
+        options = {
+          useEasing: true,
+          useGrouping: true,
+          separator: ",",
+          decimal: "."
+        };
+
+  $counters.forEach( (item) => {
+    const value = item.dataset.value;
+    const counter = new CountUp(item, value, options);
+    counter.start();
+  });
+}
+
+new Waypoint({
+  element: document.querySelector('.level'),
+  handler: function() {
+    countStart()
+    //this.destroy() //for once
+  },
+  offset: '50%'
+});
+</script>
+    </div>
+    <!-- counter ------------- -->
+</div>
+<!-- section-3 ------------------------------------------------------------------------------------------------- -->
+
+
+
+<!-- section-4 ------------------------------------------------------------------------------------------------- -->
+<div class="min-sec-4">
+    <div class="sec-4">
+        <h5 class="wow animate__animated animate__slideInUp">EXPERIENCE GOD'S PRESENCE</h5>
+        <h2 class="wow animate__animated animate__slideInUp">SERMON FOR TODAY</h2>
+        <div class="sec-4-div">
+            <div class="sec-4-img">
+                <img src="images/photo-1554355409-7d69eaad80d9.jpg" alt="">
+            </div>
+            <div class="sec-4-txt wow animate__animated animate__slideInUp">
+                <h3>LORD IS SUFFICIENT FOR ALL OF OUR NEEDS</h3>
+                <h6> <span class="ab">Sermon from:</span> <span class="xy">Felix Gonner</span></h6>
+                <h6><span class="ab">Categories:</span> <span class="st">god,pray</span></h6>
+                <h6><a href="" class="hk">On Sunday 13 may, 2023</a></h6>
+                <p>
+                    A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                </p>
+                <button class="btn-1"><i class="ri-play-mini-fill"> Watch Sermon</i></button>
+                <button class="btn-2"><i class="ri-download-2-line"> Download Sermon</i></button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- section-4 ------------------------------------------------------------------------------------------------- -->
+
+
+
+
+<!-- section-5 --------------------------------------------------------------------------------------------------- -->
+<div class="sec-5-img wow animate__animated animate__slideInUp">
+    <div class="sec-5-in-img">
+        <div class="img-5">
+        <img src="images/cross-g6ee24653e_640.jpg" alt="">
+        <i class="ri-instagram-line"></i>
+        </div>
+
+        <div class="img-5">
+        <img src="images/bible-ga7a88f7a3_640.jpg" alt="">
+        <i class="ri-instagram-line"></i>
+        </div>
+
+        <div class="img-5">
+        <img src="images/bible-g3cf090e8e_640.jpg" alt="">
+        <i class="ri-instagram-line"></i>
+        </div>
+
+        <div class="img-5">
+        <img src="images/church-g5f7a6d2d3_640.jpg" alt="">
+        <i class="ri-instagram-line"></i>
+        </div>
+     </div>
+</div>
+<!-- section-5 ----------------------------------------------------------------------------------------------- -->
+
+
+
+<!-- section-6 ---------------------------------------------------------------------------------------------- -->
+<div class="main-sec-6 wow animate__animated animate__slideInUp">
+    <h2>INSPIRATIONAL TESTIMONY</h2>
+    <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="images/b1.png" alt="">
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, neque accusamus sit accusantium, facere illum tenetur.
+        </p>
+        <h5>JOHN COOPER</h5>
+        <h6>Member</h6>
+      </div>
+      <div class="swiper-slide">
+        <img src="images/b1.png" alt="">
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, neque accusamus sit accusantium, facere illum tenetur.
+        </p>
+        <h5>JOHN COOPER</h5>
+        <h6>Member</h6>
+      </div>
+      <div class="swiper-slide">
+        <img src="images/b1.png" alt="">
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, neque accusamus sit accusantium, facere illum tenetur.
+        </p>
+        <h5>JOHN COOPER</h5>
+        <h6>Member</h6>
+      </div>
+      <div class="swiper-slide">
+        <img src="images/b1.png" alt="">
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, neque accusamus sit accusantium, facere illum tenetur.
+        </p>
+        <h5>JOHN COOPER</h5>
+        <h6>Member</h6>
+      </div>
+      <div class="swiper-slide">
+        <img src="images/b1.png" alt="">
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, neque accusamus sit accusantium, facere illum tenetur.
+        </p>
+        <h5>JOHN COOPER</h5>
+        <h6>Member</h6>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+      dynamicBullets: true,
+    },
+  });
+</script>
+<!-- section-6 ---------------------------------------------------------------------------------------------- -->
+
+
+
+<!-- section-7 ----------------------------------------------------------------------------------------------- -->
+<div class="main-sec-7 wow animate__animated animate__slideInUp">
+    <div class="sec-7">
+        <img src="images/worshipping-god-g16ef57d06_640.jpg" alt="">
+        <div class="sec-7-txt">
+            <h5>How to recover the cutting edge</h5>
+            <h6 class="s1"><i class="ri-calendar-line"></i> <span> Monday, 8:00 Am - Tuesday, 8:00 Pm</span></h6>
+            <h6 class="s2"><i class="ri-focus-3-line"></i> <span> Spring Church</span></h6>
+            <h6 class="s3"><i class="ri-building-line"></i> <span>203 Fake St. Mountain View, San Francisco, California, USA</span></h6>
+            <h6 class="s4"><a href="">Read More</a></h6>
+        </div>
+    </div>
+    <div class="sec-7">
+        <img src="images/church-g3ed4b5961_640.jpg" alt="">
+         <div class="sec-7-txt">
+            <h5>How to recover the cutting edge</h5>
+            <h6 class="s1"><i class="ri-calendar-line"></i> <span> Monday, 8:00 Am - Tuesday, 8:00 Pm</span></h6>
+            <h6 class="s2"><i class="ri-focus-3-line"></i> <span> Spring Church</span></h6>
+            <h6 class="s3"><i class="ri-building-line"></i> <span>203 Fake St. Mountain View, San Francisco, California, USA</span></h6>
+            <h6 class="s4"><a href="">Read More</a></h6>
+         </div>
+    </div>
+    <div class="sec-7">
+        <img src="images/cross-gb100c8c55_640.jpg" alt="">
+        <div class="sec-7-txt">
+            <h5>How to recover the cutting edge</h5>
+            <h6 class="s1"><i class="ri-calendar-line"></i> <span> Monday, 8:00 Am - Tuesday, 8:00 Pm</span></h6>
+            <h6 class="s2"><i class="ri-focus-3-line"></i> <span> Spring Church</span></h6>
+            <h6 class="s3"><i class="ri-building-line"></i> <span>203 Fake St. Mountain View, San Francisco, California, USA</span></h6>
+            <h6 class="s4"><a href="">Read More</a></h6>
+        </div> 
+    </div>
+    <div class="sec-7">
+        <img src="images/prayer-gef5a7c375_640.jpg" alt="">
+        <div class="sec-7-txt">
+            <h5>How to recover the cutting edge</h5>
+            <h6 class="s1"><i class="ri-calendar-line"></i> <span> Monday, 8:00 Am - Tuesday, 8:00 Pm</span></h6>
+            <h6 class="s2"><i class="ri-focus-3-line"></i> <span> Spring Church</span></h6>
+            <h6 class="s3"><i class="ri-building-line"></i> <span>203 Fake St. Mountain View, San Francisco, California, USA</span></h6>
+            <h6 class="s4"><a href="">Read More</a></h6>
+        </div> 
+    </div>
+  </div>
+<!-- section-7 ----------------------------------------------------------------------------------------------- -->
+
+
+
+<!-- section-8 ----------------------------------------------------------------------------------------------- -->
+<div class="main-sec-8 wow animate__animated animate__slideInUp">
+    <h5>OUR BLOG</h5>
+    <h2>RECENT BLOG</h2>
+    <div class="sec-8">
+        <div class="sec-8-bg">
+            <a href="" class="b1">AUG 5,2023</a> <a href="" class="b2">ADMIN</a> <a href="" class="b3"><i class="ri-message-2-line"> 3</i></a>
+            <p>
+                know about our god who created this universe 
+            </p>
+            <img src="images/p11.jpg" alt="">
+            <p class="p">
+                A small river named Duden flows by their place and supplies it with the necessary regelialia.
+            </p>
+        </div>
+
+        <div class="sec-8-bg">
+            <a href="" class="b1">AUG 5,2023</a> <a href="" class="b2">ADMIN</a> <a href="" class="b3"><i class="ri-message-2-line"> 3</i></a>
+            <p>
+                know about our god who created this universe 
+            </p>
+            <img src="images/p12.jpg" alt="">
+            <p class="p">
+                A small river named Duden flows by their place and supplies it with the necessary regelialia.
+            </p>
+        </div>
+
+        <div class="sec-8-bg">
+            <a href="" class="b1">AUG 5,2023</a> <a href="" class="b2">ADMIN</a> <a href="" class="b3"><i class="ri-message-2-line"> 3</i></a>
+            <p>
+                know about our god who created this universe 
+            </p>
+            <img src="images/p13.jpg" alt="">
+            <p class="p">
+                A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                
+            </p>
+        </div>
+    </div>
+</div>
+<!-- section-8 ----------------------------------------------------------------------------------------------- -->
+
+
+<!-- footer -------------------------------------------------------------------------------------------------- -->
+<footer>
+    <div class="main-ft">
+        <div class="ft-1">
+            <h3>VINEYARD CHURCH</h3>
+            <p>
+                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+            </p>
+            <i class="ri-twitter-line wow animate__animated animate__slideInUp"></i> <i class="ri-facebook-line wow animate__animated animate__slideInUp"></i>  <i class="ri-instagram-line wow animate__animated animate__slideInUp"></i>
+        </div>
+        <div class="ft-2">
+            <h5>ABOUT</h5>
+            <li><i class="ri-arrow-drop-right-line"> </i>staff</li>
+            <li><i class="ri-arrow-drop-right-line"> </i>beliefs</li>
+            <li><i class="ri-arrow-drop-right-line"> </i>history</li>
+            <li><i class="ri-arrow-drop-right-line"> </i>mission</li>
+            <li><i class="ri-arrow-drop-right-line"> </i>wedding & funerals</li>
+            <li><i class="ri-arrow-drop-right-line"> </i>jobs & internship</li>
+            <li><i class="ri-arrow-drop-right-line"> </i>fellowships</li>
+        </div>
+        <div class="ft-2">
+            <h5>CONNECT</h5>
+            <li><i class="ri-arrow-drop-right-line"> </i>home groups</li>
+            <li><i class="ri-arrow-drop-right-line"> </i>recovery groups</li>
+            <li><i class="ri-arrow-drop-right-line"> </i>memberships</li>
+            <li><i class="ri-arrow-drop-right-line"> </i>childern & students</li>
+            <li><i class="ri-arrow-drop-right-line"> </i>volunteer</li>
+            <li><i class="ri-arrow-drop-right-line"> </i>counseling</li>
+            <li><i class="ri-arrow-drop-right-line"> </i>assistance</li>
+        </div>
+
+        <div class="ft-3">
+            <h5>SERVICE HOURS</h5>
+            <p class="f3">Saturday Prayer Meeting — 10:00 am to 11:30 am</p>
+            <p class="f4">Sunday Service — 8:30 am to 11:30 am</p>
+        </div>
+    </div>
+</footer>
+</body>
+<script>
+    new WOW().init();
+</script>
+</html>

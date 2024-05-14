@@ -1,0 +1,1217 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .slider {
+      width: 90%;
+      margin: 100px auto;
+  }
+  .slider1{
+    width: 50%;
+    background-color: antiquewhite;
+    margin: 100px auto;
+  }
+
+  .slick-slide {
+    margin: 0px 20px;
+  }
+
+  .slick-slide img {
+    width: 100%;
+
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+  }
+
+
+  .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+  }
+  
+  .slick-active {
+    opacity: 1;
+  }
+
+  .slick-current {
+    opacity: 1;
+  }
+
+
+/* header ------------------------------------------------------------------------------------------------------------- */
+  html,
+body {
+  position: relative;
+  /* height: 100%; */
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.header-img{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  /* border: 1px solid black; */
+  background-color: #cef4fb;
+  justify-content: space-evenly;
+}
+.himg{
+  height: 490px;
+  margin-left: 50px;
+}
+.himg img{
+  height: 100%;
+  width: 100%;
+}
+.itxt{
+  width: 50%;
+  align-items: center;
+  margin-top: 100px;
+  /* border: 1px solid black; */
+  
+}
+.itxt h2{
+  color: red;
+  font-family:French Script MT;
+  text-align: center;
+  font-size: 40px;
+}
+.itxt h1{
+  font-size: 40px;
+  padding: 10px;
+  text-align: center;
+}
+.itxt p{
+  font-size: 15px;
+  padding: 10px;
+  /* width: 50%; */
+  text-align: center;
+}
+.itxt button{
+  font-size: 18px;
+  background-color: black;
+  color: #fff;
+  padding: 5px;
+  width: 100px;
+  height: 50px;
+  /* margin-left: 00px; */
+  border: 1px solid black;
+  border-radius: 5px;
+}  
+.itxt button:hover{
+  background-color: #cef4fb;
+  color: black;
+}
+header{
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.632);
+  }
+  .header{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  nav ul li{
+    display: inline-block;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: rgb(89, 89, 89);
+    padding: 10px;
+  }
+
+  .icon a{
+        text-decoration: none;
+        padding: 10px;
+        color: rgb(120, 117, 117);
+  }
+
+  .icon i{
+    padding: 10px;
+  }
+  .icon i:hover{
+    color: red;
+    transition: 1s;
+   transform: rotateY(150deg);
+  }
+
+  .pg1{
+    width: 100%;
+    height: 100px;
+    background-color: #eee;
+    /* border: 1px solid black; */
+  }
+  .p1{
+    width: 100%;
+    height: 90px;
+    position: sticky;
+    top: 0;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .p-link ul li{
+    list-style: none;
+    display: inline-block;
+  }
+  .p-link ul li a{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bolder;
+    color: black ;
+  }
+  .p-link ul li a:hover{
+    color: red;
+  }
+  .p-link select{
+    font-weight: bolder;
+    border: none;
+    background-color:rgb(245, 245, 245);
+  }
+  .p-link select:hover{
+    color: red;
+  }
+
+.p-icon i{
+    padding: 15px;
+    font-size: x-large;
+}
+  .p-icon i:hover{
+    color: red;
+    transition: 0.5s;
+  }
+
+  .offer{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+  }
+  .offer h1{
+    padding-top: 15px;
+    color: rgb(211, 216, 221);
+    font-size: 16px;
+    font-weight: lighter;
+  }
+  .offer a{
+    /* text-decoration: none; */
+    font-size: 16spx;
+    padding: 5px;
+    color: antiquewhite;
+    transition: 1s;
+
+  }
+  .offer a:hover{
+    letter-spacing: 1px;
+  }
+/* header ---------------------------------------------------------------------------------------------------------- */
+
+  
+
+
+/* fashion---------------------------------------------------------------------------------------------------------- */
+  .fashion{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    margin-top: 100px;
+  }
+
+  .f-box{
+    width: 80%;
+    margin-left: 10%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+ 
+  .f-img img{
+  filter: grayscale(30%);
+  }
+  .f-img :hover{
+    transform: scale(1.1);
+    transition: 1s;
+    backface-visibility: hidden;
+  }
+  .f-img{
+
+    width: 30%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+  }
+  .f-img img{
+    width: 100%;
+    height: 100%;
+  }
+  /* fashoin ----------------------------------------------------------------------------------------------- */
+
+
+
+/* trend ----------------------------------------------------------------------------------------------------- */
+.main{
+  width:100%;
+  height: auto;
+   /* border: 1px solid black;  */
+  margin-left: 150px;
+}
+.h2{
+  font-size: 30px;
+  text-align: center;
+  font-weight: lighter;
+}
+.main-hed{
+  display: flex;
+}
+.mtxt h2{
+  font-size: 30px;
+  align-items: center;
+  /* font-weight: lighter; */
+}
+.main-nav{
+  margin-left: 500px;
+}
+.main-nav nav ul li{
+  display: inline-block;
+  list-style: none;
+}
+.main-nav nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding: 7px;
+  position: relative;
+}
+.main-nav nav ul li a::before{
+  content: " ";
+  background: red;
+  width: 0%;
+  height: 3px;
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  transition: 1s;
+}
+.main-nav nav ul li a:hover::before{
+  width: 100%;
+}
+.line{
+  width: 1075px;
+  height: 2px;
+  background:grey;
+  border-radius: 5px;
+} 
+.slider h1{
+  margin-top: 20px;
+  font-size: 12px;
+  margin-left: 100px;
+}
+
+.slider p{
+  margin-top: 10px;
+  color: gray;
+}
+.slider p:hover{
+  color: #000;
+}
+.slider p a{
+  margin-left: 20px;
+  text-decoration: line-through;
+  color: rgb(207, 192, 64)  ;
+}
+.slider1 h1{
+  padding-top: 30px;
+ margin-bottom: 30px;
+}
+.slider1 p{
+  width: 70%;
+  height: auto;
+  word-spacing: 7px;
+  margin-bottom: 20px;
+}
+/* .trend------------------------------------------------------------------------------------------------------ */
+
+
+
+
+/* blog ------------------------------------------------------------------------------------------------------- */
+.l-main{
+  margin-left: 35%;
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+}
+.l-main h6{
+  padding: 0;
+}
+.l-img{
+  width: auto;
+  height: auto;
+ 
+}
+.l-img img{
+  margin-top: 5%;
+  width: 50px;
+  height: 50px;
+}
+/* blog----------------------------------------------------------------------------------------------------------- */
+
+.like h1{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom:-50px;
+}
+
+/* news ---------------------------------------------------------------------------------------------------------- */
+.news{
+  width: 100%;
+  height: 90vh;
+  margin-top: 5%;
+  /* border: 1px solid black; */
+}
+.news h1{
+  text-align: center;
+  margin-top: 100px;
+  font-size: 30px;
+  margin-bottom:50px ;
+  margin-bottom: 50px;
+}
+.n-main{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.n-img{
+  width: 30%;
+  height: 500px;
+
+}
+.n-img h6{
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: gray;
+  font-size: 12px;
+}
+.n-img h2{
+  margin-bottom: 10px;
+  
+}
+.n-img:hover h2{
+  color: red;
+}
+.n-img p{
+  color: darkgray;
+  margin-bottom: 20px;
+}
+.n-img a{
+  font-size: larger;
+  font-weight: bolder;
+  color: #000;
+}
+/* news ----------------------------------------------------------------------------------------------------------- */
+
+
+
+/* services ------------------------------------------------------------------------------------------------------ */
+.service{
+  width: 100%;
+  height: 40vh;
+  margin-bottom: 50px;
+}
+.s-box{
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.s-img{
+  width: 400px;
+  border-right: 1px solid rgba(160, 160, 160, 0.683);
+}
+
+.t-txt h2{
+  margin-top:15px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.t-txt p{
+  color: gray;
+}
+/* services ---------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* footer ------------------------------------------------------------------------------------------------------ */
+footer{
+  height: 60vh;
+  width: 100%;
+  border: 1px solid black;
+  background: #000;
+  color: white;
+}
+#ft1{
+  height: 20vh;
+  width: 95%;
+  margin-left: 2%;
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#ff1 input{
+  height: 50px;
+  width: 300px;
+}
+#ff1 a{
+  background: red;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+font-size: 20px;
+}
+#ff1 i{
+  padding: 5px;
+  font-size: 20px;
+  color: gray;
+}
+#ff1 i:hover{
+  color: red;
+  transition: 1s;
+ transform: rotateY(150deg);
+}
+#ft2{
+  height: 30vh;
+  width: 90%;
+margin-top: 5vh;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+#ft3{
+  height: 30vh;
+}
+#ft3 h5{
+font-size: 22px;
+}
+#ft3 a{
+  padding: 5px;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+#bt1{
+  display: none;
+}
+
+@media (min-width:720px) and (max-width:980px)
+ {
+  header{
+    height: auto;
+    width: auto;
+  }
+  .swiper{
+    height: auto;
+    width: 100%;
+  }
+  .fashion{
+    height: auto;
+    width: 90%;
+    /* margin: 0; */
+  }
+  .f-box{
+    height: auto;
+    width: auto;
+    /* margin: 0; */
+  }
+  .f-img{
+    height: auto;
+    width: auto;
+    margin: 0;
+  }
+  .news{
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .n-main{
+    height: auto;
+    width: auto;
+
+  }
+  .n-img{
+    height: auto;
+    width: auto;
+  }
+  .n-img img{
+    width: 80%;
+  }
+}
+
+
+@media (min-width:481px) and (max-width:720px)
+ {
+  header{
+    height: auto;
+    width: auto;
+  }
+  .header{
+    height: auto;
+    width: auto;
+  }
+ .header nav ul li a{
+    font-size: 12px;
+    padding: 0;
+  }
+  #bt1{
+    display: block;
+  }
+  
+  .icon{
+    height: auto;
+    width: auto;
+  }
+  .icon a{
+    font-size: 12px;
+    padding: 0;
+  }
+  .icon i{
+    font-size: 12px;
+    padding: 0;
+  }
+  .pg1{
+    height: auto;
+    width: auto;
+    margin-bottom: 150px;
+    position: relative;
+  }
+  .p1 img{
+    width: 100%;
+  }
+  .p-link nav{
+    position: absolute;
+    top: 120%;
+    left: 35%;
+    display: none;
+  }
+  .p-link nav ul li{
+    display: block;
+  }
+  .p-icon i{
+    padding: 4px;
+    font-size: 12px;
+  }
+  .swiper{
+    height: auto;
+    width: auto;
+  }
+  .offer{
+    /* margin-bottom: 10px; */
+    height: auto;
+    width: auto;
+  }
+  .offer h1{
+    font-size: 15px;
+  }
+  .himg{
+    margin-top: 100px;
+    width: 400px;
+    flex-basis: 40%;
+    height: 300px;
+  }
+  .itxt h1{
+    font-size: 20px;
+  }
+   .itxt p{
+    font-size: 10px;
+   }
+   .itxt button{
+    font-size: 13px;
+    padding: 2px;
+    height: 30px;
+   }
+  .fashion{
+    height: auto;
+    width: auto;
+  }
+  .f-box{
+    height: auto;
+    width: 80%;
+    flex-direction: column;
+  }
+  .f-img{
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+  }
+  .trend{
+    height: auto;
+    width: auto;
+    margin-top: 80px;
+  }
+  .tr-box{
+    height: auto;
+    width: auto;
+    margin-left: 5%;
+  }
+  .tr-txt{
+    height: auto;
+    width: auto;
+  }
+  .tr-txt h1{
+    font-size: 12px;
+  }
+  .tr-link ul li  a{
+    padding: 0;
+    font-size: 10px;
+  }
+  .regular{
+    width: 80%;
+  }
+  .regular h1{
+    font-size: 12px;
+  }
+  .regular p{
+    font-size: 10px;
+  }
+  .lazy{
+    height: auto;
+    width: 85%;
+  }
+  .lazy p{
+    font-size: 12px;
+  }
+  .news{
+    height: auto;
+    width: 100%;
+  }
+  .n-main{
+    height: auto;
+    width: 100%;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+  }
+  .n-img{
+    height: auto;
+    width: 45%;
+  }
+  .n-img img{
+    width: 80%;
+  }
+  .service{
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+  }
+  .s-box{
+    height: auto;
+    width: auto;
+    /* flex-direction: column; */
+  }
+  .s-img{
+    height: auto;
+    width: 100%;
+  }
+  footer{
+    height: auto;
+    width: auto;
+    margin-top: 50px;
+  }
+  #footer{
+    height: auto;
+    width: auto;
+  }
+  #footer h5{
+    font-size: 15px;
+  }
+  #ft1{
+    height: auto;
+    width: auto;
+  }
+ #ff1 h1{
+  font-size: 15px;
+ }
+ #ff1 h4{
+  font-size: 10px;
+ }
+  #ff1 input{
+    height: 30px;
+    width: 200px;
+  }
+  #ff1 a{
+    padding: 2px
+  }
+  #ff1 i{
+    padding: 0;
+    font-size: 15px;
+  }
+  #ft2{
+    height: auto;
+    width: auto;
+  }
+  #ft3{
+    /* height: 50vh; */
+    width: auto;
+  }
+  #ft3 img{
+    width:150px;
+  }
+  #ft3 a{
+    padding: 0px;
+  }
+  
+
+}
+
+@media (min-width:360px) and (max-width:480px)
+ {
+  header{
+    height: auto;
+    width: auto;
+  }
+  .header{
+    height: auto;
+    width: auto;
+  }
+ .header nav ul li a{
+    font-size: 12px;
+    padding: 0;
+  }
+  #bt1{
+    display: block;
+  }
+  
+  .icon{
+    height: auto;
+    width: auto;
+  }
+  .icon a{
+    font-size: 12px;
+    padding: 0;
+  }
+  .icon i{
+    font-size: 12px;
+    padding: 0;
+  }
+  .pg1{
+    height: auto;
+    width: auto;
+    margin-bottom: 150px;
+    position: relative;
+  }
+  .p1 img{
+    width: 100%;
+  }
+  .p-link nav{
+    position: absolute;
+    top: 120%;
+    left: 35%;
+    display: none;
+  }
+  .p-link nav ul li{
+    display: block;
+  }
+  .p-icon i{
+    padding: 4px;
+    font-size: 12px;
+  }
+  .swiper{
+    height: auto;
+    width: auto;
+  }
+  .offer{
+    /* margin-bottom: 10px; */
+    height: auto;
+    width: auto;
+  }
+  .offer h1{
+    font-size: 15px;
+  }
+  .himg{
+    margin-top: 100px;
+    width: 400px;
+    flex-basis: 40%;
+    height: 300px;
+  }
+  .itxt h1{
+    font-size: 20px;
+  }
+   .itxt p{
+    font-size: 10px;
+   }
+   .itxt button{
+    font-size: 13px;
+    padding: 2px;
+    height: 30px;
+   }
+  .fashion{
+    height: auto;
+    width: auto;
+  }
+  .f-box{
+    height: auto;
+    width: 80%;
+    flex-direction: column;
+  }
+  .f-img{
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+  }
+  .trend{
+    height: auto;
+    width: auto;
+    margin-top: 80px;
+  }
+  .tr-box{
+    height: auto;
+    width: auto;
+    margin-left: 5%;
+  }
+  .tr-txt{
+    height: auto;
+    width: auto;
+  }
+  .tr-txt h1{
+    font-size: 12px;
+  }
+  .tr-link ul li  a{
+    padding: 0;
+    font-size: 10px;
+  }
+  .regular{
+    width: 80%;
+  }
+  .regular h1{
+    font-size: 12px;
+  }
+  .regular p{
+    font-size: 10px;
+  }
+  .lazy{
+    height: auto;
+    width: 85%;
+  }
+  .lazy p{
+    font-size: 12px;
+  }
+  .news{
+    height: auto;
+    width: 100%;
+  }
+  .n-main{
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+  }
+  .n-img{
+    height: auto;
+    width: 80%;
+  }
+  .n-img img{
+    width: 80%;
+  }
+  .service{
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+  }
+  .s-box{
+    height: auto;
+    width: auto;
+    flex-direction: column;
+  }
+  .s-img{
+    height: auto;
+    width: 100%;
+  }
+  footer{
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+  }
+  #footer{
+    height: auto;
+    width: auto;
+  }
+  #ft1{
+    height: auto;
+    width: auto;
+    flex-direction: column;
+  }
+  #ff1{
+    height: auto;
+    width: 80%;
+    margin-top: 20px;
+  }
+  #ff1 h1,h4{
+    font-size: 22px;
+  }
+  #ff1 input{
+    height: 20px;
+    width: 150px;
+  }
+  #ff1 a{
+    padding: 0;
+  }
+  #ft2{
+    height: auto;
+    width: auto;
+    flex-direction: column;
+  }
+  #ft3{
+    height: auto;
+    width: auto;
+    text-align: center;
+  }
+
+}
+
+@media (min-width:0px) and (max-width:360px)
+ {
+  header{
+    height: auto;
+    width: auto;
+  }
+  .header{
+    height: auto;
+    width: auto;
+  }
+  nav ul li a{
+    font-size: 10px;
+    padding: 0;
+  }
+  #bt1{
+    display: block;
+  }
+  
+  .icon{
+    height: auto;
+    width: auto;
+  }
+  .icon a{
+    font-size: 10px;
+    padding: 0;
+  }
+  .icon i{
+    font-size: 12px;
+    padding: 0;
+  }
+  .pg1{
+    height: auto;
+    width: auto;
+    margin-bottom: 150px;
+    position: relative;
+  }
+  .p1 img{
+    width: 100%;
+  }
+  .p-link nav{
+    position: absolute;
+    top: 120%;
+    left: 35%;
+    display: none;
+  }
+  .p-link nav ul li{
+    display: block;
+  }
+  .p-icon i{
+    padding: 4px;
+    font-size: 12px;
+  }
+  .swiper{
+    height: auto;
+    width: auto;
+  }
+  .offer{
+    /* margin-bottom: 10px; */
+    height: auto;
+    width: auto;
+  }
+  .offer h1{
+    font-size: 15px;
+  }
+  .himg{
+    margin-top: 100px;
+    width: 400px;
+    flex-basis: 40%;
+    height: 300px;
+  }
+  .itxt h1{
+    font-size: 20px;
+  }
+   .itxt p{
+    font-size: 10px;
+   }
+   .itxt button{
+    font-size: 13px;
+    padding: 2px;
+    height: 30px;
+   }
+  .fashion{
+    height: auto;
+    width: auto;
+  }
+  .f-box{
+    height: auto;
+    width: 80%;
+    flex-direction: column;
+  }
+  .f-img{
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+  }
+  .trend{
+    height: auto;
+    width: auto;
+    margin-top: 80px;
+  }
+  .tr-box{
+    height: auto;
+    width: auto;
+    margin-left: 5%;
+  }
+  .tr-txt{
+    height: auto;
+    width: auto;
+  }
+  .tr-txt h1{
+    font-size: 12px;
+  }
+  .tr-link ul li  a{
+    padding: 0;
+    font-size: 10px;
+  }
+  .regular{
+    width: 80%;
+  }
+  .regular h1{
+    font-size: 12px;
+  }
+  .regular p{
+    font-size: 10px;
+  }
+  .lazy{
+    height: auto;
+    width: 85%;
+  }
+  .lazy p{
+    font-size: 12px;
+  }
+  .news{
+    height: auto;
+    width: 100%;
+  }
+  .n-main{
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+  }
+  .n-img{
+    height: auto;
+    width: 80%;
+  }
+  .n-img img{
+    width: 80%;
+  }
+  .service{
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+  }
+  .s-box{
+    height: auto;
+    width: auto;
+    flex-direction: column;
+  }
+  .s-img{
+    height: auto;
+    width: 100%;
+  }
+  footer{
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+  }
+  #footer{
+    height: auto;
+    width: auto;
+  }
+  #ft1{
+    height: auto;
+    width: auto;
+    flex-direction: column;
+  }
+  #ff1{
+    height: auto;
+    width: 80%;
+  }
+  #ff1 h1,h4{
+    font-size: 22px;
+  }
+  #ff1 input{
+    height: 20px;
+    width: 150px;
+  }
+  #ff1 a{
+    padding: 0;
+  }
+  #ft2{
+    height: auto;
+    width: auto;
+    flex-direction: column;
+  }
+  #ft3{
+    height: auto;
+    width: auto;
+    text-align: center;
+  }
+
+}

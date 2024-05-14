@@ -1,0 +1,1820 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    height: 170px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.head .title{
+    height: 90px;
+    width: 80%;
+    margin-left: 10%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.title h1{
+    font-size: 40px;
+    margin-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}
+.title .heading{
+    height: inherit;
+    width: 200px;
+    /* border: 1px solid red; */
+}
+.icon{
+    height: inherit;
+    width: 500px;
+    /* border: 1px solid gold; */
+    display: flex;
+    margin-left: 100px;
+}
+.m{
+    width: 50%;
+    height: inherit;
+    /* border: 1px solid green; */
+}
+.icon #send{
+    font-size: 20px;
+    color: orangered;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.title .button{
+    height: inherit;
+    width: 200px;
+    /* border: 1px solid blue; */
+}
+.button button{
+    cursor: pointer;
+    height: 45px;
+    width: 140px;
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 16px;
+    background-color: orangered;
+    color: white;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.button button:hover{
+    background-color: transparent;
+    color: orangered;
+}
+.h3{
+    margin-top: -35px;
+    margin-left: 50px;
+}
+#a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 50px;
+}
+
+header{
+    height: 80px;
+    width: 80%;
+    margin-left: 10%;
+    /* border: 1px solid black; */
+    display: flex;
+    background-color: rgb(16, 16, 78);
+    align-items: center;
+}
+nav{
+    /* height: inherit; */
+    width: 55%;
+    /* border: 1px solid red; */
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    line-height: 75px;
+    color: white;
+}
+nav ul li a:hover{
+    color: orangered;
+}
+#bars{
+    margin-left: 60px;
+    font-size: 20px;
+    color: white;
+    /* margin-top: 30px; */
+    display: none;
+    cursor: pointer;
+}
+.search{
+    height: inherit;
+    width: 40%;
+    /* border: 1px solid blue; */
+}
+.search .ic{
+    height: 50px;
+    margin-left: 35%;
+    margin-top: 16px;
+    width: 300px;
+    border: 2px solid grey;
+    border-radius: 30px;
+}
+.ic input{
+    height: 40px;
+    width: 250px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    margin-top: 3px;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.ic i{
+    font-size: 20px;
+    margin-left: 10px;
+    color: gray;
+    cursor: pointer;
+}
+.box{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.733);
+    position: absolute;
+    top: 170px;
+    z-index: 1;
+    display: flex;
+}
+.box .text{
+    height: 300px;
+    width: 700px;
+    margin-top: 180px;
+    margin-left: 100px;
+    /* border: 1px solid red; */
+}
+.text h1{
+    color: white;
+    font-size: 55px;
+}
+.text p{
+    font-size: 20px;
+    margin-top: 25px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text button{
+    height: 45px;
+    width: 150px;
+    margin-top: 25px;
+    background-color: orangered;
+    border: 2px solid orangered;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.text button:hover{
+    background-color: transparent;
+    color: orangered;
+}
+.cer{
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.prt{
+    flex-basis: 25%;
+    height: inherit;
+    /* border: 1px solid red; */
+}
+#clr{
+    background-color: orangered;
+}
+#bl{
+    background-color: rgb(16, 16, 78);
+}
+#sec{
+    font-size: 40px;
+    color: white;
+    margin-top: 35px;
+    margin-left: 150px;
+}
+.cer h1{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.cer p{
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.offer{
+    height: 110vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.offer .prt1{
+    height: inherit;
+    width: 40%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.prt1 img{
+    height: 100%;
+    width: 100%;
+}
+.prt1 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.prt1 p{
+    margin-top: 10px;
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.prt1 .sef{
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 160px;
+    flex-basis: 40%;
+    /* border: 1px solid black; */
+    transition: 0.5s;
+}
+.sef i{
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: 5px;
+    background-color: orangered;
+    height: 50px;
+    padding: 12px;
+    width: 50px;
+    border-radius: 50%;
+}
+.sef h1{
+    margin-top: 5px;
+}
+.sef p{
+    margin-left: 0;
+    text-align: center;
+}
+.sef:hover{
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px 5px grey;
+    transform: scale(1.1);
+}
+.vi{
+    height: 105vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(0,0,0,0.3),orangered),url(s-1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    position: relative;
+}
+.vi .vie{
+    height: 500px;
+    flex-basis: 45%;
+    /* border: 1px solid black; */
+    margin-top: 40px;
+}
+.vie h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.vie p{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.vied{
+    height: 500px;
+    flex-basis: 45%;
+    /* border: 1px solid black; */
+}
+.vied video{
+    height: auto;
+    width: 100%;
+    margin-top: 80px;
+}
+.countered{
+    height: 100px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 2340px;
+    /* border: 1px solid red; */
+}
+.proj{
+    height: 150px;
+    width: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+.count{
+    height: inherit;
+    flex-basis: 20%;
+    /* border: 1px solid black; */
+}
+.count h1{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+    margin-top: 90px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+.count h2{
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.cors{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.cors h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.cors p{
+    text-align: center;
+    /* font-size: 20px; */
+    margin-top: 20px;
+
+}
+.cors .ele{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: space-around;
+}
+.cors .ele .elect{
+    height: 480px;
+    flex-basis: 24%;
+    /* border: 1px solid black; */
+}
+.elect .php{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+.php1{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+.php img{
+    height: 100%;
+    width: 100%;
+    /* position: relative; */
+}
+
+.php #icn{
+    color: black;
+}
+.php1 .b{
+    margin-left: 0;
+    font-size: 12px;
+    transition: 0.2s;
+}
+.php1 .ba{
+    margin-left: 50px;
+    font-size: 12px;
+    transition: 0.2s;
+}
+.php1 .bc{
+    margin-left: 50px;
+    font-size: 12px;
+    transition: 0.2s;
+}
+.php1 h2{
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.php1 p{
+    margin-top: 6px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    font-size: 18px;
+}
+.php1:hover .ba{
+    color: orangered;
+}
+.php1:hover .b{
+    color: orangered;
+}
+.php1:hover .bc{
+    color: orangered;
+}
+.php1 button{
+    margin-top: 8px;
+    height: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    width: 130px;
+    border: 2px solid orangered;
+    background-color: orangered;
+    color: white;
+    border-radius: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.php1 button:hover{
+    background-color: transparent;
+    color: orangered;
+}
+.teach{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.teach h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.teach p{
+    text-align: center;
+    /* font-size: 20px; */
+    margin-top: 20px;
+}
+.teach .teacher{
+    height: 480px;
+    width: 90%;
+    /* border: 1px solid black; */
+    margin-left: 5%;
+    margin-top: 50px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+.teach .teacher .t1{
+    height: inherit;
+    flex-basis: 24%;
+    /* border: 1px solid black; */
+}
+.t1 .t2{
+    height: 60%;
+    width: 100%;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    
+}
+
+.t2 img:hover{
+    transform: scale(1.1);
+}
+.t2 img{
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+}
+.t1 .t3{
+    height: 30%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.t3 i{
+    font-size: 20px;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+.t3 i:hover{
+    color: orangered;
+}
+.t3 h3{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+.t3 h4{
+    text-align: center;
+    color: orangered;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.t3 p{
+    margin-top: 10px;
+    /* font-size: 18px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: grey;
+}
+.rq{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(0,0,0,0.1),orangered),url(s-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.rq .card{
+    height: 500px;
+    width: 500px;
+    /* border: 1px solid black; */
+    margin-top: 95px;
+    margin-left: 75px;
+    /* background-color: rgba(255, 68, 0, 0.24); */
+}
+.card h1{
+    font-size: 50px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.card p{
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card input{
+    height: 30px;
+    width: 230px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-bottom: 2px solid white;
+    margin-top: 40px;
+    margin-left: 10px;
+    /* padding: 10px; */
+    font-size: 16px;
+}
+.card button{
+    margin-left: 10px;
+    height: 50px;
+    width: 200px;
+    background-color: orangered;
+    border: 2px solid orangered;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.card button:hover{
+    background-color: transparent;
+    border: 2px solid white;
+}
+.blg{
+    height: 110vh;
+    width: 100%;
+    /* background-color: white; */
+    /* border: 1px solid white; */
+}
+.blg h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.blg p{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.blg .temp{
+    height: 500px;
+    width: 90%;
+    /* border: 1px solid black ; */
+    margin-left: 5%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.temp .tem{
+    height: inherit;
+    flex-basis: 32%;
+    /* border: 1px solid black; */
+}
+.tem .div{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+.div img{
+    height: 100%;
+    width: 100%;
+    /* opacity: .; */
+    /* z-index: .10; */
+}
+.div h2{
+    height: 110px;
+    width: 60px;
+    text-align: center;
+    /* border: 1px solid black; */
+    background-color: rgb(64, 64, 168);
+    color: white;
+    margin-top: -113px;
+    /* font-size: 18px; */
+    opacity: .9;
+}
+.div p{
+    font-size: 23px;
+    /* font-weight: bold; */
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 0px;
+}
+.div .p1{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    margin-top: 10px;
+}
+.div button{
+    margin-top: 15px;
+    height: 35px;
+    width: 100px;
+    background-color: orangered;
+    border: 2px solid orangered;
+    border-radius: 30px;
+    color: white;
+    transition: 0.5s;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.div button:hover{
+    background-color: transparent;
+    color: orangered;
+}
+.div u{
+    margin-left: 110px;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    color: orangered;
+}
+.div span{
+    cursor: pointer;
+    color: grey;
+    font-size: 18px;
+}
+.se{
+    height: 90vh;
+    width: 100%;
+    background-color: white;
+    border: 1px solid white;
+}
+.se h1{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 50px;
+}
+.se p{
+    margin-top: 30px;
+    text-align: center;
+}
+.photos{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    /* z-index: 1; */
+}
+.pht{
+    height: inherit;
+    flex-basis: 25%;
+    /* border: 1px solid black; */
+    position: relative;
+    /* z-index: 1;   */
+}
+.pht img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.pht #ft{
+    /* position: absolute; */
+    top: 0;
+    font-size: 40px;
+    height: 52px;
+    width: 50px;
+    color: transparent;
+    /* background-color: orangered; */
+    background-color: transparent;
+    padding: 7px;
+    opacity: .9;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 110px;
+    transition: 0.5s;
+}
+.pht:hover #ft{
+    color: black;
+    background-color: orangered;
+}
+footer{
+    height: 80vh;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.733);
+    background-color: rgba(0, 0, 0, 0.733);
+}
+footer .dit{
+    height: 550px;
+    width: 100%;
+    margin-top: 10px;
+    /* margin-left: 2.5%; */
+    /* border: 1px solid orangered; */
+    display: flex;
+}
+.dit .ins{
+    flex-basis: 25%;
+    height: inherit;
+    /* border: 1px solid white; */
+}
+.ins h1{
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ins p{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* color: grey; */
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.ins a{
+    color: white;
+}
+.ins .dip{
+    height: 42%;
+    margin-top: 10px;
+    width: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+}
+.dip .photo1{
+    height: 100%;
+    width: 50%;
+    margin-top: 20px;
+    /* border: 1px solid gold; */
+}
+.photo1 h3{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.photo1:hover h3{
+    color: orangered;
+}
+.photo1 #p5{
+    color: grey;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 0;
+    font-family: arial;
+    cursor: pointer;
+
+}
+.ins .linked{
+    height: 200px;
+    width: 100%;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+}
+.linked a{
+    display: flex;
+    font-size: 18px;
+    margin-top: 10px;
+    text-decoration: none;
+    margin-left: 50px;
+    color: rgb(158, 158, 158);
+}
+.ins input{
+    text-align: center;
+    height: 50px;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid grey;
+    font-size: 18px;
+}
+.ins button{
+    height: 50px;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: rgb(91, 91, 206);
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ins #h1{
+    margin-top: 30px;
+}
+.ins #i5{
+    color: white;
+    font-size: 22px;
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 55px;
+    padding: 18px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: grey;
+    transition: 0.5s;
+}
+.ins #i6{
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 55px;
+    padding: 15px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: grey;
+    transition: 0.5s;
+}
+.ins i:hover{
+    transform: rotatey(360deg);
+    cursor: pointer;
+    color: orangered;
+}
+#h53{
+    margin-left: 50px;
+}
+footer #p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+@media(min-width:721px) and (max-width:980px)
+{
+    .head{
+        height: 100px;
+    }
+    .head .title{
+        width: 100%;
+        margin-left: 0;
+        height: 50px;
+    }
+    .title h1{
+        font-size: 20px;
+    }
+    .title h2{
+        font-size: 15px;
+    }
+    .m{
+        /* height: 50px; */
+        display: none;
+    }
+    .title .button{
+        margin-left: -120px;
+    }
+    .button button{
+        height: 20px;
+        width: 90px;
+        margin-top: 15px;
+    }
+    header{
+        width: 100%;
+        margin-left: 0;
+        height: 50px;
+    }
+
+    .swiper{
+        /* margin-top: 100px; */
+    }
+    #bars{
+        /* display: block; */
+        margin-left: -170px;
+    }
+    nav ul li a{
+        padding: 10px;
+    }
+    .search{
+        height: 50px;
+        /* width: 150px; */
+        /* margin-left: 180px; */
+    }
+    .search .ic{
+        height: 30px;
+        width: 200px;
+        margin-top: 10px;
+    }
+    .ic input{
+        height: 20px;
+        width: 150px;
+    }
+    .box{
+        top: 100px;
+    }
+    .text{
+        height: auto;
+        width: auto;
+    }
+    .text h1{
+        font-size: 25px;
+    }
+    .text p{
+        text-align: left;
+    }
+    .cer{
+        height: auto;
+        width: auto;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .prt{
+        flex-basis: 50%;
+    }
+    .offer{
+        height: auto;
+        width: auto;
+        /* flex-direction: column; */
+    }
+    .offer .prt1{
+        height: inherit;
+        width: 100%;
+        /* border: 1px solid red; */
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+    .prt1 .sef{
+        /* border: 2px solid red; */
+        flex-basis: 100%;
+        margin-left: 0px;
+        /* width: 100%; */
+    }
+    .vi{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+    }
+    .vie{
+        height: auto;
+        width: auto;
+        /* margin-top: -100px; */
+    }
+    .vie h1{
+        font-size: 25px;
+        margin-top: 0px;
+    }
+    .vie p{
+        font-size: 15px;
+    }
+    .vied video{
+        height: auto;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .countered{
+        display: none;
+    }
+    .cors{
+        height: auto;
+        width: auto;
+    }
+    .cors h1{
+        font-size: 25px;
+    }
+    .cors .ele{
+        height: auto;
+        width: auto;
+        /* flex-direction: column; */
+    }
+    .teach{
+        height: auto;
+        width: auto;
+    }
+    .teach h1{
+        font-size: 25px;
+    }
+    .teach .teacher{
+        /* flex-direction: column; */
+        height: auto;
+        width: auto;
+        margin-bottom: 100px;
+    }
+    .rq{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+        margin-top: 0px;
+        margin-left: 0px;
+        display: none;
+    }
+    .card{
+        height: auto;
+        width: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .card h1{
+        font-size: 25px;
+    }
+    .card p{
+        font-size: 18px;
+        display: none;
+    }
+    .card input{
+        position: absolute;
+        /* top: 10px; */
+        /* margin-top: 20px; */
+    }
+    .blg{
+        height: auto;
+        width: auto;
+    }
+    .blg h1{
+        font-size: 25px;
+    }
+    .blg p{
+        font-size: 15px;
+    }
+    .blg .temp{
+        height: 630px;
+        width: auto;
+        /* flex-direction: column; */
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+    .se{
+        height: auto;
+        width: auto;
+    }
+    .se h1{
+        font-size: 25px;
+    }
+    .se p{
+        font-size: 15px;
+    }
+    .photos{
+        height: auto;
+        width: auto;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .pht{
+        flex-basis: 50%;
+    }
+    footer{
+        height: auto;
+        width: auto;
+    }
+    footer .dit{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        height: auto;
+        width: auto;
+    }
+    .dit .ins{
+        flex-basis: 48%;
+    }
+    footer #p{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .offer{
+        height: auto;
+        width: auto;
+    }
+    .sef h1,p{
+        text-align: center;
+    }
+    .sef i{
+        margin-left: 50%;
+    }
+}
+
+
+
+
+@media(min-width:481px) and (max-width:720px)
+{
+    .head{
+        height: 100px;
+    }
+    .head .title{
+        width: 100%;
+        margin-left: 0;
+        height: 50px;
+    }
+    .title h1{
+        font-size: 20px;
+    }
+    .title h2{
+        font-size: 15px;
+    }
+    .m{
+        display: none;
+    }
+    .title .button{
+        margin-left: -120px;
+    }
+    .button button{
+        height: 20px;
+        width: 90px;
+        margin-top: 15px;
+    }
+    header{
+        width: 100%;
+        margin-left: 0;
+        height: 50px;
+    }
+    nav ul{
+        position: absolute;
+        flex-direction: column;
+        top: 101px;
+        width: 100%;
+        display: none;
+        text-align: center;
+        border: 1px solid black;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    nav ul li a{
+        color: black;
+        line-height: 0;        
+    }
+    .swiper{
+        margin-top: 100px;
+    }
+    #bars{
+        display: block;
+        margin-left: -170px;
+    }
+    .search{
+        height: 50px;
+        margin-left: 50px;
+    }
+    .search .ic{
+        height: 30px;
+        width: 200px;
+        margin-top: 10px;
+    }
+    .ic input{
+        height: 20px;
+        width: 150px;
+    }
+    .box{
+        top: 200px;
+    }
+    .text{
+        height: auto;
+        width: auto;
+    }
+    .text h1{
+        font-size: 25px;
+    }
+    .cer{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+    }
+    .offer{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+    }
+    .offer .prt1{
+        height: inherit;
+        width: 100%;
+        /* border: 1px solid red; */
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+    .prt1 .sef{
+        /* border: 2px solid red; */
+        flex-basis: 100%;
+        margin-left: 0px;
+        /* width: 100%; */
+    }
+    .vi{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+    }
+    .vie{
+        height: auto;
+        width: auto;
+        /* margin-top: -100px; */
+    }
+    .vie h1{
+        font-size: 25px;
+        margin-top: 0px;
+    }
+    .vie p{
+        font-size: 15px;
+    }
+    .vied video{
+        height: auto;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .countered{
+        display: none;
+    }
+    .cors{
+        height: auto;
+        width: auto;
+    }
+    .cors h1{
+        font-size: 25px;
+    }
+    .cors .ele{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+    }
+    .teach{
+        height: auto;
+        width: auto;
+    }
+    .teach h1{
+        font-size: 25px;
+    }
+    .teach .teacher{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    .rq{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+        margin-top: 0px;
+        margin-left: 0px;
+        display: none;
+    }
+    .card{
+        height: auto;
+        width: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .card h1{
+        font-size: 25px;
+    }
+    .card p{
+        font-size: 18px;
+        display: none;
+    }
+    .card input{
+        position: absolute;
+        /* top: 10px; */
+        /* margin-top: 20px; */
+    }
+    .blg{
+        height: auto;
+        width: auto;
+    }
+    .blg h1{
+        font-size: 25px;
+    }
+    .blg p{
+        font-size: 15px;
+    }
+    .blg .temp{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .se{
+        height: auto;
+        width: auto;
+    }
+    .se h1{
+        font-size: 25px;
+    }
+    .se p{
+        font-size: 15px;
+    }
+    .photos{
+        height: auto;
+        width: auto;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .pht{
+        flex-basis: 50%;
+    }
+    footer{
+        height: auto;
+        width: auto;
+    }
+    footer .dit{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        height: auto;
+        width: auto;
+    }
+    .dit .ins{
+        flex-basis: 48%;
+    }
+    footer #p{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .offer{
+        height: auto;
+        width: auto;
+    }
+    .sef h1,p{
+        text-align: center;
+    }
+    .sef i{
+        margin-left: 50%;
+    }
+}
+
+
+@media(min-width:361px) and (max-width:480px)
+{
+    .head{
+        height: 100px;
+    }
+    .head .title{
+        width: 100%;
+        margin-left: 0;
+        height: 50px;
+    }
+    .title h1{
+        font-size: 20px;
+    }
+    .title h2{
+        font-size: 15px;
+    }
+    .m{
+        display: none;
+    }
+    .title .button{
+        margin-left: -120px;
+    }
+    .button button{
+        height: 20px;
+        width: 90px;
+        margin-top: 15px;
+    }
+    header{
+        width: 100%;
+        margin-left: 0;
+        height: 50px;
+    }
+    nav ul{
+        position: absolute;
+        flex-direction: column;
+        top: 101px;
+        width: 100%;
+        display: none;
+        text-align: center;
+        border: 1px solid black;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    nav ul li a{
+        color: black;
+        line-height: 0;        
+    }
+    .swiper{
+        margin-top: 100px;
+    }
+    #bars{
+        display: block;
+        margin-left: -170px;
+    }
+    .search{
+        height: 50px;
+        margin-left: 50px;
+    }
+    .search .ic{
+        height: 30px;
+        width: 200px;
+        margin-top: 10px;
+    }
+    .ic input{
+        height: 20px;
+        width: 150px;
+    }
+    .box{
+        top: 200px;
+    }
+    .text{
+        height: auto;
+        width: auto;
+    }
+    .text h1{
+        font-size: 25px;
+    }
+    .cer{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+    }
+    .offer{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+    }
+    .offer .prt1{
+        height: inherit;
+        width: 100%;
+        /* border: 1px solid red; */
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+    .prt1 .sef{
+        /* border: 2px solid red; */
+        flex-basis: 100%;
+        margin-left: 0px;
+        /* width: 100%; */
+    }
+    .vi{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+    }
+    .vie{
+        height: auto;
+        width: auto;
+        /* margin-top: -100px; */
+    }
+    .vie h1{
+        font-size: 25px;
+        margin-top: 0px;
+    }
+    .vie p{
+        font-size: 15px;
+    }
+    .vied video{
+        height: auto;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .countered{
+        display: none;
+    }
+    .cors{
+        height: auto;
+        width: auto;
+    }
+    .cors h1{
+        font-size: 25px;
+    }
+    .cors .ele{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+    }
+    .teach{
+        height: auto;
+        width: auto;
+    }
+    .teach h1{
+        font-size: 25px;
+    }
+    .teach .teacher{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    .rq{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+        margin-top: 0px;
+        margin-left: 0px;
+        display: none;
+    }
+    .card{
+        height: auto;
+        width: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .card h1{
+        font-size: 25px;
+    }
+    .card p{
+        font-size: 18px;
+        display: none;
+    }
+    .card input{
+        position: absolute;
+        /* top: 10px; */
+        /* margin-top: 20px; */
+    }
+    .blg{
+        height: auto;
+        width: auto;
+    }
+    .blg h1{
+        font-size: 25px;
+    }
+    .blg p{
+        font-size: 15px;
+    }
+    .blg .temp{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .se{
+        height: auto;
+        width: auto;
+    }
+    .se h1{
+        font-size: 25px;
+    }
+    .se p{
+        font-size: 15px;
+    }
+    .photos{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+    }
+    footer{
+        height: auto;
+        width: auto;
+    }
+    footer .dit{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    footer #p{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+}
+
+
+@media(min-width:0px) and (max-width:360px)
+{
+    .head{
+        height: 100px;
+    }
+    .head .title{
+        width: 100%;
+        margin-left: 0;
+        height: 50px;
+    }
+    .title h1{
+        font-size: 20px;
+    }
+    .title h2{
+        font-size: 15px;
+    }
+    .m{
+        display: none;
+    }
+    .title .button{
+        margin-left: -120px;
+    }
+    .button button{
+        height: 20px;
+        width: 90px;
+        margin-top: 15px;
+    }
+    header{
+        width: 100%;
+        margin-left: 0;
+        height: 50px;
+    }
+    nav ul{
+        position: absolute;
+        flex-direction: column;
+        top: 101px;
+        width: 100%;
+        display: none;
+        text-align: center;
+        border: 1px solid black;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    nav ul li a{
+        color: black;
+        line-height: 0;        
+    }
+    .swiper{
+        margin-top: 100px;
+    }
+    #bars{
+        display: block;
+        margin-left: -170px;
+    }
+    .search{
+        height: 50px;
+        margin-left: 50px;
+    }
+    .search .ic{
+        height: 30px;
+        width: 200px;
+        margin-top: 10px;
+    }
+    .ic input{
+        height: 20px;
+        width: 150px;
+    }
+    .box{
+        top: 200px;
+    }
+    .text{
+        height: auto;
+        width: auto;
+    }
+    .text h1{
+        font-size: 25px;
+    }
+    .cer{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+    }
+    .offer{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+    }
+    .offer .prt1{
+        height: inherit;
+        width: 100%;
+        /* border: 1px solid red; */
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+    .prt1 .sef{
+        /* border: 2px solid red; */
+        flex-basis: 100%;
+        margin-left: 0px;
+        /* width: 100%; */
+    }
+    .vi{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+    }
+    .vie{
+        height: auto;
+        width: auto;
+        /* margin-top: -100px; */
+    }
+    .vie h1{
+        font-size: 25px;
+        margin-top: 0px;
+    }
+    .vie p{
+        font-size: 15px;
+    }
+    .vied video{
+        height: auto;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .countered{
+        display: none;
+    }
+    .cors{
+        height: auto;
+        width: auto;
+    }
+    .cors h1{
+        font-size: 25px;
+    }
+    .cors .ele{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+    }
+    .teach{
+        height: auto;
+        width: auto;
+    }
+    .teach h1{
+        font-size: 25px;
+    }
+    .teach .teacher{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    .rq{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+        margin-top: 0px;
+        margin-left: 0px;
+        display: none;
+    }
+    .card{
+        height: auto;
+        width: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .card h1{
+        font-size: 25px;
+    }
+    .card p{
+        font-size: 18px;
+        display: none;
+    }
+    .card input{
+        position: absolute;
+        /* top: 10px; */
+        /* margin-top: 20px; */
+    }
+    .blg{
+        height: auto;
+        width: auto;
+    }
+    .blg h1{
+        font-size: 25px;
+    }
+    .blg p{
+        font-size: 15px;
+    }
+    .blg .temp{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .se{
+        height: auto;
+        width: auto;
+    }
+    .se h1{
+        font-size: 25px;
+    }
+    .se p{
+        font-size: 15px;
+    }
+    .photos{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+    }
+    footer{
+        height: auto;
+        width: auto;
+    }
+    footer .dit{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    footer #p{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+}

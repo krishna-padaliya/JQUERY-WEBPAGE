@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="min-hed">
+         <div class="logo">
+           <img src="logo.png.webp" alt="">
+         </div>
+         <i class="ri-menu-3-line" id="menu"></i>
+         <div class="navbar">
+           <nav>
+             <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Feature</a></li>
+               <li><a href="#">Services</a></li>
+               <li><a href="#">Pricing</a></li>
+               <li><a href="#">Pages</a></li>
+               <li><a href="#">Contact</a></li>
+             </ul>
+           </nav>
+          
+         </div>
+        </div>
+     </header>
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+<script>
+  $(document).ready(function(){
+      $("#menu").click(function(){
+          $(".navbar").toggle(2000);
+      });
+  });
+</script>
+</html>

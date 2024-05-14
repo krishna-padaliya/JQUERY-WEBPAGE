@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashoin shop</title>
+    <!-- css------------------------------ -->
+    <link rel="stylesheet" href="style.css">
+    <!-- remix-icon ---------------------- -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+     <!-- Link Swiper's CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+     <!-- slick ------- -->
+  <link rel="stylesheet" type="text/css" href="slick.css">
+  <link rel="stylesheet" type="text/css" href="slick-theme.css">
+  <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 100%;
+        margin: 100px auto;
+        background-color: #FFF;
+        margin-bottom: 0;
+        height: 200px;
+        margin-top: 100px;
+        /* box-shadow: 2px 2px 2px 2px gray; */
+    }
+
+    .slick-slide {
+      margin: 0px;
+      margin-top: 100px;
+    }
+    .center-slide{
+        margin: 0;
+    }
+
+    .slick-slide img {
+      width: 50%;
+      
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+<!-- visit -------------------------------------- -->
+    <div class="visit">
+        <div class="in-visit">
+        <div class="b1">
+       <a href="">+12312-3-1209</a>
+       <a href="">Support@colorlib.com</a>
+       </div>
+       <a href="" class="b2" >Log in</a>
+    </div>
+   </div>
+<!-- visit ------------------------------ -->
+
+
+<!-- header -------------------------------- -->
+<header>
+    <div class="main-hed">
+        <img src="logo.png.webp" alt="">
+        <nav>
+            <ul>
+                <li><a href="home">home</a></li>
+                <li><a href="category">category</a></li>
+                <li><a href="men">men</a></li>
+                <li><a href="women">women</a></li>
+                <li><a href="lastest">lastest</a></li>
+                <li><a href="pages">pages</a></li>
+            </ul>
+        </nav>
+        <i class="ri-menu-line" id="menu"></i>
+    </div>
+</header>
+
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script> 
+<script>
+  $(document).ready(function(){
+      $("#menu").click(function(){
+          $("nav").toggle(2000);
+      });
+  });
+</script>
+<!-- header ------------------------------------------------------- -->
+
+
+<!-- swiper ---------------------------------------------------------- -->
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="Screenshot (10).png" alt=""></div>
+      <div class="swiper-slide"><img src="Screenshot (10).png" alt=""></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+ <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+ <!-- Initialize Swiper -->
+ <script>
+   var swiper = new Swiper(".mySwiper", {
+     spaceBetween: 30,
+     centeredSlides: true,
+     autoplay: {
+       delay: 2500,
+       disableOnInteraction: false,
+     },
+     pagination: {
+       el: ".swiper-pagination",
+       clickable: true,
+     },
+     navigation: {
+       nextEl: ".swiper-button-next",
+       prevEl: ".swiper-button-prev",
+     },
+   });
+ </script>
+<!-- swiper ---------------------------------------------------------- -->
+
+
+
+<!-- category -------------------------------------------------------- -->
+<div class="cate">
+<h2>Shop for Different Categories</h2>
+<h5>Who are in extremely love with eco friendly system.</h5>
+</div>
+<div class="cat">
+    <img src="c1.jpg.webp" alt="" class="i1">
+    <img src="c2.jpg.webp" alt=""class="i2">
+    <img src="c3.jpg.webp" alt="" class="i3" >
+    <img src="c4.jpg.webp" alt="" class="i4" >
+</div>
+<!-- category----------------------------------------------------------- -->
+
+
+<!-- product man ------------------------------------------------------ -->
+<h2>New realeased Products for Men</h2>
+<h5>Who are in extremely love with eco friendly system.</h5>
+<div class="product">
+   <div class="man">
+    <img src="l1.jpg.webp" alt="">
+    <h4>Long Sleeve shirt</h4>
+    <h3>$150.00</h3>
+   </div>
+   <div class="man">
+    <img src="l2.jpg.webp" alt="">
+    <h4>Long Sleeve shirt</h4>
+    <h3>$150.00</h3>
+   </div>
+   <div class="man">
+    <img src="l3.jpg.webp" alt="">
+    <h4>Long Sleeve shirt</h4>
+    <h3>$150.00</h3>
+   </div>
+   <div class="man">
+    <img src="l4.jpg.webp" alt="">
+    <h4>Long Sleeve shirt</h4>
+    <h3>$150.00</h3>
+   </div>
+</div>
+<!-- product man---------------------------------------------------------- -->
+
+
+
+
+<!-- product women ------------------------------------------------------- -->
+<h2>New realeased Products for Women</h2>
+<h5>Who are in extremely love with eco friendly system.</h5>
+<div class="product">
+    <div class="man">
+     <img src="l5.jpg.webp" alt="">
+     <h4>Long Sleeve shirt</h4>
+     <h3>$150.00</h3>
+    </div>
+    <div class="man">
+     <img src="l6.jpg.webp" alt="">
+     <h4>Long Sleeve shirt</h4>
+     <h3>$150.00</h3>
+    </div>
+    <div class="man">
+     <img src="l7.jpg.webp" alt="">
+     <h4>Long Sleeve shirt</h4>
+     <h3>$150.00</h3>
+    </div>
+    <div class="man">
+     <img src="l8.jpg.webp" alt="">
+     <h4>Long Sleeve shirt</h4>
+     <h3>$150.00</h3>
+    </div>
+ </div>
+<!-- product women ------------------------------------------------------- -->
+
+
+
+
+<!-- deal ---------------------------------------------------------------- -->
+<div class="main-deal">
+<h2>Exclusive Hot Deal Ends in:</h2>
+<h5>Who are in extremely love with eco friendly system.</h5>
+<div class="deal">
+    <div class="deal-img">
+        <img src="cd.png.webp" alt="">
+    </div>
+    <div class="counter">
+        <div class="a">
+            <h1>-1681</h1>
+            <h4>Days</h4>
+        </div><hr>
+        <div class="a">
+            <h1>11</h1>
+            <h4>Hours</h4>
+        </div><hr>
+        <div class="a">
+            <h1>-5</h1>
+            <h4>Minutes</h4>
+        </div><hr>
+        <div class="a">
+            <h1>34</h1>
+            <h4>Seconds</h4>
+        </div>
+    </div>
+    <a href="">Shop Now</a>
+
+</div>
+</div>
+<!-- deal ------------------------------------------------------------------ -->
+
+
+
+<!-- search--------------------------------------------------------------- -->
+<h2>Related Searched Products</h2>
+<h5>Who are in extremely love with eco friendly system.</h5>
+<div class="se-pro">
+    <div class="pro">
+        <div class="pro-img">
+            <img src="r1.jpg.webp" alt="">
+        </div>
+        <div class="pro-txt">
+            <p>black lace hells</p>
+            <i class="ri-price-tag-3-line"></i><span>$189.00</span>
+        </div>
+    </div>
+
+    <div class="pro">
+        <div class="pro-img">
+            <img src="r2.jpg.webp" alt="">
+        </div>
+        <div class="pro-txt">
+            <p>black lace hells</p>
+            <i class="ri-price-tag-3-line"></i><span>$189.00</span>
+        </div>
+    </div>
+
+    <div class="pro">
+        <div class="pro-img">
+            <img src="r3.jpg.webp" alt="">
+        </div>
+        <div class="pro-txt">
+            <p>black lace hells</p>
+            <i class="ri-price-tag-3-line"></i><span>$189.00</span>
+        </div>
+    </div>
+
+    <div class="pro">
+        <div class="pro-img">
+            <img src="r4.jpg.webp" alt="">
+        </div>
+        <div class="pro-txt">
+            <p>black lace hells</p>
+            <i class="ri-price-tag-3-line"></i><span>$189.00</span>
+        </div>
+ </div>
+
+
+ <div class="pro">
+    <div class="pro-img">
+        <img src="r5.jpg.webp" alt="">
+    </div>
+    <div class="pro-txt">
+        <p>black lace hells</p>
+        <i class="ri-price-tag-3-line"></i><span>$189.00</span>
+    </div>
+</div>
+
+<div class="pro">
+    <div class="pro-img">
+        <img src="r6.jpg.webp" alt="">
+    </div>
+    <div class="pro-txt">
+        <p>black lace hells</p>
+        <i class="ri-price-tag-3-line"></i><span>$189.00</span>
+    </div>
+</div>
+
+<div class="pro">
+    <div class="pro-img">
+        <img src="r7.jpg.webp" alt="">
+    </div>
+    <div class="pro-txt">
+        <p>black lace hells</p>
+        <i class="ri-price-tag-3-line"></i><span>$189.00</span>
+    </div>
+</div>
+
+<div class="pro">
+    <div class="pro-img">
+        <img src="r8.jpg.webp" alt="">
+    </div>
+    <div class="pro-txt">
+        <p>black lace hells</p>
+        <i class="ri-price-tag-3-line"></i><span>$189.00</span>
+    </div>
+</div>
+
+
+<div class="pro">
+    <div class="pro-img">
+        <img src="r9.jpg.webp" alt="">
+    </div>
+    <div class="pro-txt">
+        <p>black lace hells</p>
+        <i class="ri-price-tag-3-line"></i><span>$189.00</span>
+    </div>
+</div>
+
+<div class="pro">
+    <div class="pro-img">
+        <img src="r10.jpg.webp" alt="">
+    </div>
+    <div class="pro-txt">
+        <p>black lace hells</p>
+        <i class="ri-price-tag-3-line"></i><span>$189.00</span>
+    </div>
+</div>
+
+<div class="pro">
+    <div class="pro-img">
+        <img src="r11.jpg.webp" alt="">
+    </div>
+    <div class="pro-txt">
+        <p>black lace hells</p>
+        <i class="ri-price-tag-3-line"></i><span>$189.00</span>
+    </div>
+</div>
+
+<div class="pro">
+    <div class="pro-img">
+        <img src="r12.jpg.webp" alt="">
+    </div>
+    <div class="pro-txt">
+        <p>black lace hells</p>
+        <i class="ri-price-tag-3-line"></i><span>$189.00</span>
+    </div>
+</div>
+</div>
+<!-- search --------------------------------------------------------------- -->
+
+
+<!-- logos ---------------------------------------------------------------- -->
+<section class="center slider">
+    <div>
+      <img src="br1.png.webp">
+    </div>
+    <div>
+      <img src="br2.png.webp">
+    </div>
+    <div>
+      <img src="br3.png.webp">
+    </div>
+    <div>
+      <img src="br4.png.webp">
+    </div>
+    <div>
+      <img src="br5.png.webp">
+    </div>
+    <div>
+      <img src="br1.png.webp">
+    </div>
+    <div>
+      <img src="br2.png.webp">
+    </div>
+    <div>
+      <img src="br3.png.webp">
+    </div>
+    <div>
+        <img src="br4.png.webp">
+      </div>
+    <div>
+      <img src="br5.png.webp">
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="slick.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+  $(document).on('ready', function() {
+    $(".center").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 5,
+        slidesToScroll: 3
+      });
+    });
+</script>
+  <!-- logos ----------------------------------------------------------- -->
+
+
+  <!-- footer ------------------------------------------------------------ -->
+<footer>
+    <div class="ft">
+    <div class="f1">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+    </div>
+    <div class="f2">
+        <h4>Newsletter</h4>
+        <p>Stay update with our latest</p>
+        <input type="email" name="" id="" placeholder="Enter Email"><i class="ri-arrow-right-fill"></i>
+    </div>
+    <div class="f3">
+        <h4>Instragram Feed</h4>
+        <img src="Screenshot (11).png" alt="">
+    </div>
+    <div class="f4">
+        <h4>Follow Us</h4>
+        <p>Let us be social</p><br>
+        <i class="ri-facebook-fill"></i> <i class="ri-twitter-fill"></i>  <i class="ri-youtube-fill"></i> <i class="ri-behance-fill"></i> 
+    </div>
+</div>
+</footer>
+
+
+
+  <!-- footer -------------------------------------------------------------- -->
+</body>
+</html>

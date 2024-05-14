@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Slick Playground</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+</head>
+<body>
+
+  <!-- 1st header start -->
+  <header>
+    <div class="header">
+      <nav>
+        <ul>
+          <li>
+            <a href="">About Us</a>
+          </li>
+          <li>
+            <a href="">Privacy</a>
+          </li>
+          <li>
+            <a href="">FAQ</a>
+          </li>
+          <li>
+            <a href="">Carees</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="icon">
+          <a href="">My Wishlis</a>
+          <a href=""> Track Your Order</a>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-youtube"></i>
+      </div>
+   
+    </div>
+  </header>
+<!-- 1st header end. -->
+<!-- 2nd header start -->
+  <section class="pg1">
+    <div class="p1">
+      <div>
+        <img src="img/logo.png.webp" alt="">
+      </div>
+      <i class="fa fa-bars" id="bt1"></i>
+      <div class="p-link"> <nav>
+        <ul>
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a href="">Men</a>
+          </li>
+          <li>
+            <a href="">Women</a>
+          </li>
+          <li>
+            <a href="">Baby Collection</a>
+          </li>
+          
+          <li>
+            <a href="">pages</a>
+          </li> 
+         
+          <li>
+            <a href="">Blog</a>
+          </li>
+          <li>
+            <a href="">Contact</a>
+          </li>
+
+        </ul></nav>
+      </div>
+      <div class="p-icon">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-solid fa-user"></i>
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+    </div>
+  </section>
+
+  <!-- 2ns header end. -->
+<!-- offer section start. -->
+  <div class="offer">
+    <center>
+      <h1>Sale Up To 50% Biggest Discounts. Hurry! Limited Perriod Offer <a href="">Shop Now</a></h1>
+    </center>
+  </div>
+
+
+
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+ <div class="header-img">
+  <div class="himg">
+      <img src="img/header img.jpg" alt="">
+  </div>
+  <div class="itxt">
+      <h2>Fashion Sale</h2>
+      <h1>Minimal Menz Style</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut enim sapiente, nesciunt repudiandae dolorum nulla accusantium sit est repellendus laudantium, voluptatem tempore eligendi laboriosam sequi delectus animi expedita? Unde, fugit!</p>
+      <br>
+      <button>Shop Now</button>
+  </div>
+ </div>
+
+
+
+</div>     
+<div class="swiper-slide">
+  <div class="header-img">
+    <div class="itxt">
+          <h2>Fashion Sale</h2>
+          <h1>Minimal Menz Style</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut enim sapiente, nesciunt repudiandae dolorum nulla accusantium sit est repellendus laudantium, voluptatem tempore eligendi laboriosam sequi delectus animi expedita? Unde, fugit!</p>
+          <br>
+          <button>Shop Now</button>
+      </div>
+      <div class="himg">
+          <img src="img/46006.jpg" alt="">
+      </div>
+     </div>
+</div>
+</div>
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+<div class="swiper-pagination"></div>
+</div>
+
+<!-- Swiper JS ------------------------------------------------------------------>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper ---------------------------------------------------------------->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+  <!-- header ------------------------------------------------------------------------------------------------------- -->
+
+
+
+
+  <!-- fashion --------------------------------------------------------------------------------------------------- -->
+<section class="fashion">
+<div class="f-box">
+  <div class="f-img">
+      <img src="img/items1.jpg.webp" alt="">
+    </div>
+    <div class="f-img">
+      <img src="img/items2.jpg.webp" alt="">
+    </div>
+    <div class="f-img">
+      <img src="img/items3.jpg.webp" alt="">
+    </div>
+  </div>
+</section>
+  <!-- fashion --------------------------------------------------------------------------------------------------- -->
+
+
+  <!-- trend ----------------------------------------------------------------------------------------------------- -->
+ <!-- <div class="main">
+    <div class="main-hed">
+        <div class="mtxt">
+            <h2>Trending This Week</h2>
+        </div>
+        <div class="main-nav">
+            <nav>
+                <ul>
+                    <li class="men"><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Baby</a></li>
+                    <li><a href="#">Fashion</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div><br>
+    <div class="line"></div>
+</div> -->
+  <section class="regular slider">
+    <div>
+      <img src="img/latest1.jpg.webp">
+      <h1>Cashmere Tank + Bag</h1>
+      <center><p>$98.00 <a href="">$120.00</a></p></center>
+    </div>
+    <div>
+      <img src="img/latest2.jpg (1).webp">
+      <h1>Cashmere Tank + Bag</h1>
+      <center><p>$98.00 <a href="">$120.00</a></p></center>
+    </div>
+    <div>
+      <img src="img/latest3.jpg.webp">
+      <h1>Cashmere Tank + Bag</h1>
+      <center><p>$98.00 <a href="">$120.00</a></p></center>
+    </div>
+    <div>
+      <img src="img/latest4.jpg.webp">
+      <h1>Cashmere Tank + Bag</h1>
+      <center><p>$98.00 <a href="">$120.00</a></p></center>
+    </div>
+    <div>
+      <img src="img/latest1.jpg.webp">
+      <h1>Cashmere Tank + Bag</h1>
+      <center><p>$98.00 <a href="">$120.00</a></p></center>
+    </div>
+    <div>
+      <img src="img/latest2.jpg (1).webp">
+      <h1>Cashmere Tank + Bag</h1>
+      <center><p>$98.00 <a href="">$120.00</a></p></center>
+    </div>
+    <div>
+      <img src="img/latest3.jpg.webp">
+      <h1>Cashmere Tank + Bag</h1>
+      <center><p>$98.00 <a href="">$120.00</a></p></center>
+    </div>
+    <div>
+      <img src="img/latest4.jpg.webp">
+      <h1>Cashmere Tank + Bag</h1>
+      <center><p>$98.00 <a href="">$120.00</a></p></center>
+    </div>
+  </section>
+
+<!-- trend ------------------------------------------------------------------------------------------------------- -->
+
+
+<!-- blog ------------------------------------------------------------------------------------------------------- -->
+  <section class="lazy slider1" data-sizes="50vw">
+    <div>
+       <center> 
+        <h1>Customer Testimonial</h1>
+          <p>Everybody is different, which is why we offer styles for every body. Laborum fuga incidunt laboriosam voluptas iure, delectus dignissimos facilis neque nulla earum.</p>
+          <div class="l-main">
+
+          <div class="l-img">
+            <img src="img/founder-img.png.webp" alt="">
+          
+          </div>
+          <div>
+            <h6>Petey Cruiser</h6><br>
+            <p>Designer at Colorlib</p>
+          </div>
+        </div>
+       </center>
+    </div>
+    <div>
+      <center> 
+       
+         <h1>Customer Testimonial</h1>
+         <p>Everybody is different, which is why we offer styles for every body. Laborum fuga incidunt laboriosam voluptas iure, delectus dignissimos facilis neque nulla earum.</p>
+         <div class="l-main">
+
+         <div class="l-img">
+           <img src="img/founder-img.png.webp" alt="">
+         
+         </div>
+         <div>
+           <h6>Petey Cruiser</h6><br>
+           <p>Designer at Colorlib</p>
+         </div>
+       </div>
+      </center>
+   </div>
+</section>
+<!-- blog ---------------------------------------------------------------------------------------------------------- -->
+
+
+<!-- like -------------------------------------------------------------------------------------------------------- -->
+  <div class="like">
+    <h1>You May Like</h1>
+  </div>
+  <section class="regular slider">
+   
+    <div>
+      <img src="img/latest5.jpg.webp">
+      <h1>Cashmere Tank + Bag</h1>
+      <center><p>$98.00 <a href="">$120.00</a></p></center>
+    </div>
+    <div>
+      <img src="img/latest6.jpg.webp">
+      <h1>Cashmere Tank + Bag</h1>
+      <center><p>$98.00 <a href="">$120.00</a></p></center>
+    </div>
+    <div>
+      <img src="img/latest7.jpg.webp">
+      <h1>Cashmere Tank + Bag</h1>
+      <center><p>$98.00 <a href="">$120.00</a></p></center>
+    </div>
+    <div>
+      <img src="img/latest8.jpg.webp">
+      <h1>Cashmere Tank + Bag</h1>
+      <center><p>$98.00 <a href="">$120.00</a></p></center>
+    </div>
+    <div>
+      <img src="img/latest5.jpg.webp">
+      <h1>Cashmere Tank + Bag</h1>
+      <center><p>$98.00 <a href="">$120.00</a></p></center>
+    </div>
+    <div>
+      <img src="img/latest6.jpg.webp (1).webp">
+      <h1>Cashmere Tank + Bag</h1>
+      <center><p>$98.00 <a href="">$120.00</a></p></center>
+    </div>
+    <div>
+      <img src="img/latest7.jpg.webp">
+      <h1>Cashmere Tank + Bag</h1>
+      <center><p>$98.00 <a href="">$120.00</a></p></center>
+    </div>
+    <div>
+      <img src="img/latest8.jpg.webp">
+      <h1>Cashmere Tank + Bag</h1>
+      <center><p>$98.00 <a href="">$120.00</a></p></center>
+    </div>
+  </section>
+<!-- like ------------------------------------------------------------------------------------------------ -->
+
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $("#bt1").click(function(){
+        $("nav").slideToggle(1000);
+      });
+      
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1
+      });
+      $(".center").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 5,
+        slidesToScroll: 3
+      });
+      $(".lazy").slick({
+        lazyLoad: 'ondemand', // ondemand progressive anticipated
+        infinite: true
+      });
+    });
+</script>
+
+
+
+<section class="news">
+  <h1>Latest News</h1>
+  <div class="n-main">
+    <div class="n-img">
+      <img src="img/blog1.jpg.webp" alt="" srcset="">
+      <h6>Fashion Tips</h6>
+      <h2>What Curling Irons Are The Best Ones</h2>
+      <p>Consectetur adipisicing elit. Laborum fuga incidunt laboriosam voluptas iure, delectus..</p>
+      <a href="">Read more</a>
+    </div>
+    <div class="n-img">
+      <img src="img/blog2.jpg.webp" alt="" srcset="">
+      <h6>Fashion Tips</h6>
+      <h2>Vogue's Ultimate Guide To Autumn/ Winter 2019 Shoes      </h2>
+      <p>Consectetur adipisicing elit. Laborum fuga incidunt laboriosam voluptas iure, delectus..</p>
+      <a href="">Read more</a>
+    </div>
+    <div class="n-img">
+      <img src="img/blog3.jpg.webp" alt="" srcset="">
+      <h6>Fashion Tips</h6>
+      <h2>What Curling Irons Are The Best Ones      </h2>
+      <p>Consectetur adipisicing elit. Laborum fuga incidunt laboriosam voluptas iure, delectus..</p>
+      <a href="">Read more</a>
+    </div>
+  </div>
+</section>
+
+<section class="service">
+  <div class="s-box">
+    <div class="s-img">
+      <center>
+      <img src="img/services1.svg" alt="">
+    </center>
+      <div class="t-txt">
+        <center>
+        <h2>Fast & Free Delivery</h2>
+        <p>Free delivery on all orders</p>
+      </center>
+      </div>
+    </div>
+    <div class="s-img">
+      <center>
+      <img src="img/services2.svg" alt="">
+    </center>
+      <div class="t-txt">
+        <center>
+      <h2>Secure Payment</h2>
+      <p>Free delivery on all orders</p>
+    </center>
+      </div>
+    </div>
+    <div class="s-img">
+      <center>
+      <img src="img/services3.svg" alt="">
+    </center>
+      <div class="t-txt">
+        <center>
+          <h2>Money Back Guarantee
+        </h2>
+        <p>Free delivery on all orders</p>
+      </center>
+      </div>
+    </div>
+    <div class="s-img">
+      <center>
+      <img src="img/services4.svg" alt="">
+    </center>
+      <div class="t-txt">
+        <center>
+        <h2>Online Support</h2>
+        <p>Free delivery on all orders</p>
+      </center>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div id="footer">
+    <div id="ft1">
+      <div id="ff1">
+        <h1>Subscribe Newsletter</h1>
+        <h4>Subscribe Newsletter</h4>
+      </div>
+      <div id="ff1">
+        <input type="text" placeholder="Enter Your email">&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="">Subscribe</a>
+      </div>
+      <div id="ff1">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+    </div> <hr>
+    <div id="ft2">
+      <div id="ft3">
+        <img src="img/logo1.png" alt="">
+      </div>
+      <div id="ft3">
+        <h5>Shop Men</h5> <br> <br>
+        <a href="">Clothing Fashion</a>
+        <a href="">Winter</a>
+        <a href="">Summer</a>
+        <a href="">Formal</a>
+        <a href="">Casual</a>
+      </div>
+      <div id="ft3">
+        <h5>Shop Women</h5> <br> <br>
+        <a href="">Clothing Fashion</a>
+        <a href="">Winter</a>
+        <a href="">Summer</a>
+        <a href="">Formal</a>
+        <a href="">Casual</a>
+      </div>
+      <div id="ft3">
+        <h5>Baby Collection</h5> <br> <br>
+        <a href="">Clothing Fashion</a>
+        <a href="">Winter</a>
+        <a href="">Summer</a>
+        <a href="">Formal</a>
+        <a href="">Casual</a>
+      </div>
+      <div id="ft3">
+        <h5>Quick Links</h5> <br> <br>
+        <a href="">Track Your Order</a>
+        <a href="">Support</a>
+        <a href="">FAQ</a>
+        <a href="">Carrier</a>
+        <a href="">About</a>
+        <a href="">Contact Us</a>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>  
