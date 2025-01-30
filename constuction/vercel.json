@@ -1,7 +1,5 @@
-
-
 {
   "routes": [
-    { "src": "/", "dest": "/constuction.html" }
+    { "src": "/", "dest": "/construction.html" }
   ]
 }
